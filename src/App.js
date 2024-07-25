@@ -27,7 +27,7 @@ function App() {
   return (
     <>
     <Router>
-    {/* <Navbar title="Mohammad Rahim" mode={mode} toggleMode={toggleMode}/> */}
+    <Navbar title="Mohammad Rahim" mode={mode} toggleMode={toggleMode}/>
     {/* <Counter mode={mode}/> */}
     <Routes>
           {/* <Route path="/" element={<Home />} /> */}
@@ -36,7 +36,7 @@ function App() {
           {/* <Route exact path="/contact" element={<Contact />} /> */}
         </Routes>
     </Router>
-    {/* <Footer/> */}
+    <Footer/>
     </>
   );
 }
