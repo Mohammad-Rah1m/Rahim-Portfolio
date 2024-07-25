@@ -7,6 +7,18 @@
         justify-content: space-between;
         background-color: black;
         color: white;
+        .footer-logo{
+            .footer-logo-item{
+                img{
+                    width: 200px;
+                }
+            }
+            .footer-social{
+                margin-top: 40px;
+                display: flex;
+                gap:20px;
+            }
+        }
         .footer-quick-links{
             .quick-links-menu{
                 margin-top:40px;
@@ -30,18 +42,12 @@
     }
     .footer-copyright{
         background-color: var(--background-gray);
-        display: flex;
-        justify-content: space-between;
+        text-align: center;
         padding-inline:10%;
         color:white;
-        align-items: center;
         padding-block:20px;
         p{
             margin: 0px;
-        }
-        .footer-copyright-social{
-            display: flex;
-            gap:20px;
         }
     }
 }

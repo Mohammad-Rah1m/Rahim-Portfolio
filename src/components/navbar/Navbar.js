@@ -7,7 +7,7 @@ import logo from '../../assets/images/logo.svg';
 
 export default function Navbar(props) {
   return (
-    <nav className={`navbar navbar-expand-lg bg-${props.mode} border-bottom `} data-bs-theme={`${props.mode}`}>
+    <nav className={`navbar sticky-top navbar-expand-lg bg-${props.mode} border-bottom `} data-bs-theme={`${props.mode}`}>
     <div className="container-fluid">
       <img src={logo} alt="logo"/>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

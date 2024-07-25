@@ -18,3 +18,20 @@ h1, h2, h3, h4, h5, h6 {
 h1{
     font-weight: 700;
 }
+.sub-heading{
+    /* font-size:16px; */
+    color:gray;
+    font-weight: 600;
+}
+.text-accent-color{
+    color:#C9F31D;
+}
+h2{
+    font-weight: 600;
+}
+.text-white{
+    color:white;
+}
+.text-gray{
+    color: gray;;
+}

@@ -1,0 +1,23 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 10%;
+  padding-block: 15px;
+  background-color: #000000;
+  position: sticky;
+  top: 0px;
+  z-index: 9999;
+}
+.navbar-container .navbar-menu {
+  display: flex;
+  gap: 20px;
+  color: white;
+}
+.navbar-container .navbar-contact .navbar-contact-btn {
+  background-color: var(--accent-color);
+  padding-inline: 20px;
+  padding-block: 12px;
+  font-weight: 600;
+  border-radius: 8px;
+}/*# sourceMappingURL=NavbarSticky.css.map */

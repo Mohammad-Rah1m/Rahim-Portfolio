@@ -1,52 +1,54 @@
 .about-me{
     display: flex;
     padding-inline:10%;
-    padding-block:5%;
     background-color: black;
-    align-items:center;
-    color: white;
-    gap:50px;
+    padding-block:5%;
     .about-me-text{
-        span{
-            color: var(--accent-color);
-        }
-        p{
-            color: gray;
+        .about-me-bullets{
+            display:flex;
+            .bullets-container{
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                gap:10px;
+            }
+            .bullets-container-item{
+                display: flex;
+                gap:10px;
+                align-items: center;
+                p{
+                    margin-bottom: 0px;
+                    font-size:18px;
+                    color:white;
+                }
+            }
         }
         .about-me-contact{
-            background-color: var(--background-lightgray);
             display: flex;
-            padding:1.5rem;
+            background-color: var(--background-lightgray);
+            border-radius: 10px;
             justify-content: space-between;
-            gap:20px;
-            border-radius: 20px;
-            margin-top: 40px;
-            box-shadow: 0px 0px 5px 0px gray;
+            padding: 20px;
+            margin-top:30px;
             .about-me-contact-block{
-                display:flex;
-                align-items:center;
+                display: flex;
+                align-items: center;
                 gap:10px;
-                h6{
-                    color:lightgray;
-                }
-                h5{
-                    font-size: 18px;
-                }
                 .about-me-contact-block-icon{
                     background-color: var(--accent-color);
-                    border-radius: 50px;
                     width: 40px;
                     height: 40px;
+                    border-radius: 100px;
                     display: flex;
-                    align-items: center;
                     justify-content: center;
+                    align-items: center;
                 }
             }
         }
     }
     .about-me-img{
-        img{
-            width: 300px;
-        }
+        // display: flex;
+        // justify-content: end;
+        // background-color: red;
     }
 }

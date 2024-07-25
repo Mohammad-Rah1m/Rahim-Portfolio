@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
-import Navbar from './components/navbar/Navbar.js'
+// import Navbar from './components/navbar/Navbar.js'
+import Navbar from './components/navbar/NavbarSticky.js'
 import Footer from './components/footer/Footer.js'
 // import Counter from './components/Counter.js'
 import Home from './pages/Home/Home.js'
@@ -13,23 +14,23 @@ import './styles/global.css';
 
 
 function App() {
-  const [mode,setMode]=useState('light');
-  const toggleMode=()=>{
-    if (mode==='light'){
-      setMode('dark')
-      document.body.style.backgroundColor="#404040";
-    }
-    else{
-      setMode('light')
-      document.body.style.backgroundColor="white";
-    }
-  }
+  // const [mode,setMode]=useState('dark');
+  // const toggleMode=()=>{
+  //   if (mode==='light'){
+  //     setMode('dark')
+  //     document.body.style.backgroundColor="#404040";
+  //   }
+  //   else{
+  //     setMode('light')
+  //     document.body.style.backgroundColor="white";
+  //   }
+  // }
   return (
     <>
-    <Router>
-    <Navbar title="Mohammad Rahim" mode={mode} toggleMode={toggleMode}/>
-    {/* <Counter mode={mode}/> */}
-    <Routes>
+    <Router basename="/Rahim-Portfolio">
+      <Navbar title="Mohammad Rahim"/>
+      {/* <Counter mode={mode}/> */}
+        <Routes>
           {/* <Route path="/" element={<Home />} /> */}
           <Route exact path="/" element={<Home />} />
           <Route exact path="/about" element={<About />} />

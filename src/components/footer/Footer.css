@@ -7,6 +7,14 @@
   background-color: black;
   color: white;
 }
+.footer-container .footer .footer-logo .footer-logo-item img {
+  width: 200px;
+}
+.footer-container .footer .footer-logo .footer-social {
+  margin-top: 40px;
+  display: flex;
+  gap: 20px;
+}
 .footer-container .footer .footer-quick-links .quick-links-menu {
   margin-top: 40px;
 }
@@ -25,17 +33,11 @@
 }
 .footer-container .footer-copyright {
   background-color: var(--background-gray);
-  display: flex;
-  justify-content: space-between;
+  text-align: center;
   padding-inline: 10%;
   color: white;
-  align-items: center;
   padding-block: 20px;
 }
 .footer-container .footer-copyright p {
   margin: 0px;
-}
-.footer-container .footer-copyright .footer-copyright-social {
-  display: flex;
-  gap: 20px;
 }/*# sourceMappingURL=Footer.css.map */
