@@ -1,7 +1,7 @@
 import React from 'react'
 import './Footer.css'
 import locationIcon from '../../assets/images/map-pin.svg';
-import mailIcon from '../../assets/images/mail-footer.svg';
+// import mailIcon from '../../assets/images/mail-footer.svg';
 import phoneIcon from '../../assets/images/phone-footer.svg';
 export default function Footer() {
   return (
