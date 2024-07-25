@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.css": "/Rahim-Portfolio/static/css/main.c60ff9ca.css",
-    "main.js": "/Rahim-Portfolio/static/js/main.aaeaaa65.js",
+    "main.css": "/Rahim-Portfolio/static/css/main.7dbab390.css",
+    "main.js": "/Rahim-Portfolio/static/js/main.8431cf2a.js",
     "static/js/453.ed3810f9.chunk.js": "/Rahim-Portfolio/static/js/453.ed3810f9.chunk.js",
-    "static/media/logo.svg": "/Rahim-Portfolio/static/media/logo.901aa0e4ef47d39173299475a723d70a.svg",
+    "static/media/whitelogonew.svg": "/Rahim-Portfolio/static/media/whitelogonew.0fc204eab71ba5866d2ff88503b317b6.svg",
     "index.html": "/Rahim-Portfolio/index.html",
     "static/media/phone.svg": "/Rahim-Portfolio/static/media/phone.22904118b466d50710a6927da97da9cf.svg",
     "static/media/phone-footer.svg": "/Rahim-Portfolio/static/media/phone-footer.de5235e8fdc18db83f45dca17bdd74ec.svg",
+    "static/media/instagram.svg": "/Rahim-Portfolio/static/media/instagram.21b95d53bb704228f33f13bc54e8380d.svg",
+    "static/media/linkedin.svg": "/Rahim-Portfolio/static/media/linkedin.e9de40231488e8b6c155e79615ed5feb.svg",
     "static/media/mail.svg": "/Rahim-Portfolio/static/media/mail.eee1baa73917a6ad8cc5ab655510875a.svg",
     "static/media/mail-footer.svg": "/Rahim-Portfolio/static/media/mail-footer.5b4e45bfe6c7ec05a40a90bf81c13ecc.svg",
     "static/media/map-pin.svg": "/Rahim-Portfolio/static/media/map-pin.3c2c75b11e91549a6d543265148239cd.svg",
     "static/media/arrow-up-right.svg": "/Rahim-Portfolio/static/media/arrow-up-right.be47e36fb7751fa143147fe5f586182e.svg",
     "static/media/right.svg": "/Rahim-Portfolio/static/media/right.d45fd2f46e93f5c3aa0a7d0617d9fecf.svg",
-    "main.c60ff9ca.css.map": "/Rahim-Portfolio/static/css/main.c60ff9ca.css.map",
-    "main.aaeaaa65.js.map": "/Rahim-Portfolio/static/js/main.aaeaaa65.js.map",
+    "static/media/check.svg": "/Rahim-Portfolio/static/media/check.2fb5bbaf2426132e07b8dd6eb9bb995f.svg",
+    "main.7dbab390.css.map": "/Rahim-Portfolio/static/css/main.7dbab390.css.map",
+    "main.8431cf2a.js.map": "/Rahim-Portfolio/static/js/main.8431cf2a.js.map",
     "453.ed3810f9.chunk.js.map": "/Rahim-Portfolio/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c60ff9ca.css",
-    "static/js/main.aaeaaa65.js"
+    "static/css/main.7dbab390.css",
+    "static/js/main.8431cf2a.js"
   ]
 }
