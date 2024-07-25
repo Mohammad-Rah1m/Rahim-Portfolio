@@ -1,0 +1,37 @@
+/* src/styles/global.css */
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 50px 0;
+    position: relative;
+  }
+  
+  .hero-section-text {
+    z-index: 1;
+  }
+  
+  .hero-section-img {
+    position: relative;
+    width: 100%;
+    /* height: 300px; */
+    margin: 20px 0;
+  }
+  
+  .hero-section-img canvas {
+    width: 100%;
+    height: 400px;
+  }
+  
+  .hero-section-exp {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .hero-section-exp-block {
+    text-align: center;
+  }
+  

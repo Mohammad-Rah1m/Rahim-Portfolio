@@ -1,0 +1,20 @@
+/* variables.css */
+:root {
+    --accent-color: #C9F31D;
+    --primary-color: #333333;
+    --secondary-color: #666666;
+    --background-gray:#131313;
+    /* Add more color variables as needed */
+    --background-lightgray:#1F1F1F;
+  }
+
+body {
+    font-family: 'Roboto';
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat';
+}
+h1{
+    font-weight: 700;
+}

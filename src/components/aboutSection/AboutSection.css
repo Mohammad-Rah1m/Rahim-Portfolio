@@ -1,0 +1,48 @@
+.about-me {
+  display: flex;
+  padding-inline: 10%;
+  padding-block: 5%;
+  background-color: black;
+  align-items: center;
+  color: white;
+  gap: 50px;
+}
+.about-me .about-me-text span {
+  color: var(--accent-color);
+}
+.about-me .about-me-text p {
+  color: gray;
+}
+.about-me .about-me-text .about-me-contact {
+  background-color: var(--background-lightgray);
+  display: flex;
+  padding: 1.5rem;
+  justify-content: space-between;
+  gap: 20px;
+  border-radius: 20px;
+  margin-top: 40px;
+  box-shadow: 0px 0px 5px 0px gray;
+}
+.about-me .about-me-text .about-me-contact .about-me-contact-block {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.about-me .about-me-text .about-me-contact .about-me-contact-block h6 {
+  color: lightgray;
+}
+.about-me .about-me-text .about-me-contact .about-me-contact-block h5 {
+  font-size: 18px;
+}
+.about-me .about-me-text .about-me-contact .about-me-contact-block .about-me-contact-block-icon {
+  background-color: var(--accent-color);
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about-me .about-me-img img {
+  width: 300px;
+}/*# sourceMappingURL=AboutSection.css.map */
