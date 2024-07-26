@@ -3,14 +3,18 @@
   padding-block: 5%;
 }
 .project-container .project-text {
-  padding-inline: 10%;
+  padding-inline: 20%;
   text-align: center;
 }
-.project-container .project-marquee {
-  margin-top: 3%;
+.project-container .project-marquee .marquee-container {
+  padding-block: 2%;
 }
-.project-container .project-marquee img {
+.project-container .project-marquee .marquee-container img {
   width: 300px;
   margin-right: 20px;
   border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+.project-container .project-marquee .marquee-container img:hover {
+  transform: scale(1.05);
 }/*# sourceMappingURL=ProjectSection.css.map */

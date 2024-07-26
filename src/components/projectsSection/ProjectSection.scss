@@ -3,15 +3,23 @@
     // padding-inline: 10%;
     padding-block: 5%;
     .project-text{
-        padding-inline: 10%;
+        padding-inline: 20%;
         text-align: center;
     }
     .project-marquee{
-        margin-top:3%;
-        img{
-            width: 300px;
-            margin-right: 20px;
-            border-radius: 10px;
+        // overflow: visible;
+        .marquee-container{   
+            padding-block: 2%;
+            img{
+                width: 300px;
+                margin-right: 20px;
+                border-radius: 10px;
+                transition: transform 0.3s ease;
+                &:hover{
+                    transform: scale(1.05);
+                }
+            }
         }
+        
     }
 }
