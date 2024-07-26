@@ -2,6 +2,7 @@ import React from 'react';
 import Button from '../../components/button/Button';
 // import RahimImage from '../../assets/images/rahimbg.png';
 import LottieAnimation from '../../components/lottie/LottieAnimation.js';
+import './HeroSection.css';
 
 const HeroSection = () => {
   return (

@@ -1,37 +1,41 @@
-/* src/styles/global.css */
 .hero-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 50px 0;
-    position: relative;
-  }
-  
-  .hero-section-text {
-    z-index: 1;
-  }
-  
-  .hero-section-img {
-    position: relative;
-    width: 100%;
-    /* height: 300px; */
-    margin: 20px 0;
-  }
-  
-  .hero-section-img canvas {
-    width: 100%;
-    height: 400px;
-  }
-  
-  .hero-section-exp {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    margin-top: 20px;
-  }
-  
-  .hero-section-exp-block {
-    text-align: center;
-  }
-  
+  height: 90vh;
+  padding-inline: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--background-gray);
+}
+.hero-section .hero-section-text h1 {
+  color: var(--accent-color);
+}
+.hero-section .hero-section-text h4 {
+  color: white;
+}
+.hero-section .hero-section-text h3 {
+  color: gray;
+}
+.hero-section .hero-section-text .hero-section-text-button {
+  margin-top: 2rem;
+}
+.hero-section .hero-section-exp {
+  background: black;
+  border-radius: 10px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.hero-section .hero-section-exp h3 {
+  color: var(--accent-color);
+}
+.hero-section .hero-section-exp p {
+  font-size: 14px;
+  color: gray;
+}
+.hero-section .hero-section-exp .hero-section-exp-block {
+  border-bottom: 1px solid gray;
+}
+.hero-section .hero-section-exp .hero-section-exp-block:last-child {
+  border-bottom: none;
+}/*# sourceMappingURL=HeroSection.css.map */

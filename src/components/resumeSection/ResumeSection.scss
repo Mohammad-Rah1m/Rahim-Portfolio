@@ -1,0 +1,49 @@
+.my-resume{
+    background-color: var(--background-gray);
+    color:white;
+    padding-inline:10%;
+    padding-block:5%;
+    .my-resume-heading{
+        span{
+            color:var(--accent-color);
+        }
+        text-align: center;
+    }
+    .my-resume-card{
+        background-color: var(--background-lightgray);
+        padding:5%;
+        margin-top:3%;
+        border-radius: 20px;
+        display: flex;
+        justify-content: space-between;
+        .my-resume-card-block{
+            display: flex;
+            flex-direction: column;
+            gap:40px;
+            .my-resume-card-block-item{
+                display:flex;
+                align-items: start;
+                gap:20px;
+                .my-resume-card-block-item-icon{
+                    background-color: var(--accent-color);
+                    border-radius: 50px;
+                    width: 40px;
+                    height:40px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+                .my-resume-card-block-item-text{
+                    h5,h6{
+                        color:lightgray;
+                    }
+                }
+            }
+            
+        }
+        .my-resume-card-divider{
+            width:1px;
+            background-color: gray;
+        }
+    }
+}
