@@ -44,5 +44,25 @@
   border: 1px solid var(--accent-color);
 }
 .services-container .services-card .services-card-container .services-card-item:hover .services-icon-container {
-  transform: scale(1.2);
+  transform: scale(1.1);
+}
+.services-container .services-card .services-btn {
+  margin-top: 3%;
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .services-card {
+    margin-top: 10% !important;
+  }
+  .services-card-container {
+    flex-wrap: wrap;
+  }
+  .services-card-item {
+    width: 100% !important;
+  }
+  .services-card-item-text {
+    width: 70%;
+  }
 }/*# sourceMappingURL=ServicesSection.css.map */

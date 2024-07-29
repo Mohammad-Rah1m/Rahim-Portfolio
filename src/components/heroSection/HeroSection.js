@@ -6,7 +6,7 @@ import './HeroSection.css';
 
 const HeroSection = () => {
   return (
-    <div className="hero-section">
+    <div className="hero-section main-container-padding">
       <div className="hero-section-text">
         <h3>Hello, I'm</h3>
         <h1>Mohammad Rahim</h1>

@@ -35,3 +35,21 @@ h2{
 .text-gray{
     color: gray;;
 }
+.text-lightgray{
+    color: #1F1F1F;
+}
+
+@media only screen and (min-width:2000px) and (max-width:4000px){
+    .main-container-padding{
+        padding-inline:25% !important;
+    }
+}
+
+@media only screen and (max-width:600px){
+    .navbar-container{
+        display: none !important;
+    }
+    .main-container-padding{
+        padding-block: 10%;
+    }
+}

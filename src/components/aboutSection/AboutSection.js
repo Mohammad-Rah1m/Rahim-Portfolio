@@ -1,15 +1,15 @@
 import React from 'react'
 import './AboutSection.css'
-
+import Button from '../../components/button/Button.js'
 import AboutAnimation from '../../components/lottie/AboutAnimation.js';
 import mailIcon from '../../assets/images/mail.svg';
 import phoneIcon from '../../assets/images/phone.svg';
 import CheckIcon from '../../assets/images/check.svg';
-
+import { Link } from 'react-router-dom'
 
 export default function AboutSection() {
   return (
-    <div className="about-me">
+    <div className="about-me main-container-padding">
         <div className="about-me-text">
             <h5 className='sub-heading'>About Me</h5>
             <h2 className='text-white'>Professional <span className='text-accent-color'>Web Designer & Developer</span> For Digital Products</h2>
@@ -40,18 +40,24 @@ export default function AboutSection() {
                     </div>
                 </div>
               </div>
-
-              <div className="about-me-contact">
-                  <div className="about-me-contact-block">
+              <div className="about-me-btn">
+                <Button title='About Me'/>
+              </div>
+        </div>
+        <div className="about-me-img">
+          {/* <img src={require('../../assets/images/about.jpg')} alt='about-picture'/> */}
+          <AboutAnimation/>
+          <div className="about-me-contact">
+                  <Link to="/" className="about-me-contact-block">
                     <div className="about-me-contact-block-icon">
                         <img src={mailIcon} alt="icon" />
                     </div>
                     <div className="about-me-contact-block-text">
                         <h6 className='text-gray'>Email Me</h6>
-                        <h5 className='text-white'>rahimchangezi5@gmail.com</h5>
+                        <h5 className='text-white'>Rahimchangezi5@gmail.com</h5>
                     </div>
-                  </div>
-                  <div className="about-me-contact-block">
+                  </Link>
+                  <Link to="/" className="about-me-contact-block">
                     <div className="about-me-contact-block-icon">
                         <img src={phoneIcon} alt="icon" />
                     </div>
@@ -59,12 +65,8 @@ export default function AboutSection() {
                         <h6 className='text-gray'>Call me</h6>
                         <h5 className='text-white'>03138437243</h5>
                     </div>
-                  </div>
+                  </Link>
               </div>
-        </div>
-        <div className="about-me-img">
-          {/* <img src={require('../../assets/images/about.jpg')} alt='about-picture'/> */}
-          <AboutAnimation/>
         </div>
       </div>
   )

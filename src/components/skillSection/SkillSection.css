@@ -1,0 +1,77 @@
+.skill-container {
+  background-color: black;
+  padding-inline: 10%;
+  padding-block: 5%;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+.skill-container .skill-details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.skill-container .skill-details .skill-details-container {
+  display: flex;
+  gap: 10px;
+}
+.skill-container .skill-details .skill-details-container .skill-details-item {
+  background-color: var(--background-lightgray);
+  border: 1px solid var(--background-lightgray);
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  transition: border 0.3s ease;
+  width: 25%;
+}
+.skill-container .skill-details .skill-details-container .skill-details-item img {
+  width: 50px;
+}
+.skill-container .skill-details .skill-details-container .skill-details-item h6 {
+  color: white;
+}
+.skill-container .skill-details .skill-details-container .skill-details-item .skill-details-item-counter {
+  background-color: black;
+  padding-inline: 40px;
+  padding-block: 10px;
+  border-radius: 10px;
+}
+.skill-container .skill-details .skill-details-container .skill-details-item .skill-details-item-counter h6 {
+  margin-bottom: 0px;
+  color: gray;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+.skill-container .skill-details .skill-details-container .skill-details-item:hover {
+  border: 1px solid var(--accent-color);
+}
+.skill-container .skill-details .skill-details-container .skill-details-item:hover .skill-details-item-counter {
+  background-color: var(--accent-color);
+}
+.skill-container .skill-details .skill-details-container .skill-details-item:hover .skill-details-item-counter h6 {
+  color: black;
+}
+
+@media only screen and (max-width: 600px) {
+  .skill-text {
+    text-align: center;
+  }
+  .skill-container, .skill-details-container {
+    flex-wrap: wrap;
+  }
+  .skill-details-item {
+    width: 48% !important;
+  }
+  .skill-details-container {
+    justify-content: center;
+  }
+  .button-main-container {
+    padding-block: 5%;
+  }
+}/*# sourceMappingURL=SkillSection.css.map */

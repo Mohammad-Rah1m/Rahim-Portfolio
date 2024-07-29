@@ -14,6 +14,7 @@
         .services-card-container{
             display: flex;
             gap:20px;
+            // flex-wrap: wrap;
             .services-card-item{
                 width: 50%;
                 display: flex;
@@ -39,10 +40,30 @@
                 &:hover{
                     border:1px solid var(--accent-color);
                     .services-icon-container{
-                        transform:scale(1.2)
+                        transform:scale(1.1)
                     }
                 }
             }
         }
+        .services-btn{
+            margin-top: 3%;
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
+
+@media only screen and (max-width:600px){
+    .services-card{
+        margin-top: 10% !important;
+    }
+    .services-card-container{
+        flex-wrap: wrap;
+    }
+    .services-card-item{
+        width: 100% !important;
+    }
+    .services-card-item-text{
+        width: 70%;
     }
 }

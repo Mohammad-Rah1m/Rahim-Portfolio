@@ -1,8 +1,11 @@
 .about-me{
     display: flex;
+    align-items: center;
     padding-inline:10%;
     background-color: black;
     padding-block:5%;
+    gap: 20px;
+    // flex-wrap: wrap;
     .about-me-text{
         .about-me-bullets{
             display:flex;
@@ -23,17 +26,30 @@
                 }
             }
         }
+        .about-me-btn{
+            margin-top: 8%;
+        }
+    }
+    .about-me-img{
+        margin-top: -40px;
         .about-me-contact{
             display: flex;
-            background-color: var(--background-lightgray);
-            border-radius: 10px;
-            justify-content: space-between;
-            padding: 20px;
-            margin-top:30px;
+            flex-direction: column;
+            // background-color: var(--background-lightgray);
+            // border-radius: 10px;
+            // justify-content: space-between;
+            // padding: 20px;
+            gap:20px;
             .about-me-contact-block{
+                background-color: var(--background-lightgray);
+                padding: 20px;
+                border-radius: 10px;
                 display: flex;
                 align-items: center;
-                gap:10px;
+                gap:15px;
+                border: 1px solid var(--background-lightgray);
+                text-decoration: none;
+                transition: border 0.3s ease;
                 .about-me-contact-block-icon{
                     background-color: var(--accent-color);
                     width: 40px;
@@ -42,8 +58,35 @@
                     display: flex;
                     justify-content: center;
                     align-items: center;
+                    transition: transform 0.3s ease;
+                    img{
+                        width: 20px;
+                    }
+                }
+                &:hover{
+                    border: 1px solid var(--accent-color);
+                    .about-me-contact-block-icon{
+                        transform: scale(1.1);
+                    }
                 }
             }
         }
+    }
+}
+@media only screen and (max-width:600px){
+    .about-me{
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    .about-me-img{
+        margin-top:0px !important;
+        width: 100%;
+    }
+    .about-me-text{
+        width: 100%;
+    }
+    .about-me-contact-block{
+        padding: 20px !important;
+        flex-direction: column;
     }
 }

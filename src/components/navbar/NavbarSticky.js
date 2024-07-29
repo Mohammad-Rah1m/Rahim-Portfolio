@@ -6,7 +6,7 @@ import Button from '../../components/button/Button';
 
 export default function NavbarSticky(props) {
   return (
-    <div className="navbar-container">
+    <div className="navbar-container main-container-padding">
         <div className="navbar-logo">
             <img src={LogoWhite} alt="logo"/>
         </div>

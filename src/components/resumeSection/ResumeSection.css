@@ -17,6 +17,7 @@
   border-radius: 20px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .my-resume .my-resume-card .my-resume-card-block {
   display: flex;
@@ -38,9 +39,31 @@
   justify-content: center;
 }
 .my-resume .my-resume-card .my-resume-card-block .my-resume-card-block-item .my-resume-card-block-item-text h5, .my-resume .my-resume-card .my-resume-card-block .my-resume-card-block-item .my-resume-card-block-item-text h6 {
-  color: lightgray;
+  color: gray;
 }
 .my-resume .my-resume-card .my-resume-card-divider {
   width: 1px;
   background-color: gray;
+}
+.my-resume .my-resume-btn {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+
+@media only screen and (max-width: 600px) {
+  .my-resume-card {
+    gap: 40px;
+    margin-top: 10% !important;
+  }
+  .my-resume-card-block {
+    width: 100%;
+  }
+  .my-resume-card-divider {
+    display: none;
+  }
+  .my-resume-btn {
+    margin-top: 10% !important;
+  }
 }/*# sourceMappingURL=ResumeSection.css.map */

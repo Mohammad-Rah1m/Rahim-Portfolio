@@ -8,6 +8,8 @@ import AboutSection from '../../components/aboutSection/AboutSection.js'
 import ServicesSection from '../../components/servicesSection/ServicesSection.js'
 import ResumeSection from '../../components/resumeSection/ResumeSection.js'
 import ProjectSection from '../../components/projectsSection/ProjectSection.js'
+import SkillSection from '../../components/skillSection/SkillSection.js'
+import PricingSection from '../../components/pricingSection/PricingSection.js'
 
 export default function Home() {
   return (
@@ -17,6 +19,8 @@ export default function Home() {
       <ResumeSection/>
       <ServicesSection/>
       <ProjectSection/>
+      <SkillSection/>
+      <PricingSection/>
     </div>
   )
 }

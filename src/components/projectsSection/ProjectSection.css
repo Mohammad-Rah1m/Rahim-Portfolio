@@ -17,4 +17,22 @@
 }
 .project-container .project-marquee .marquee-container img:hover {
   transform: scale(1.05);
+}
+.project-container .project-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+}
+
+@media only screen and (max-width: 600px) {
+  .project-container {
+    padding-block: 10% !important;
+  }
+  .project-text {
+    padding-inline: 10% !important;
+    padding-block: 0% !important;
+  }
+  .project-marquee {
+    padding-block: 3%;
+  }
 }/*# sourceMappingURL=ProjectSection.css.map */

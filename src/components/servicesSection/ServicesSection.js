@@ -2,10 +2,10 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import './ServicesSection.css'
 import arrowRightIcon from '../../assets/images/arrow-up-right.svg';
-
+import Button from '../../components/button/Button.js'
 export default function ServicesSection() {
   return (
-    <div className='services-container'>
+    <div className='services-container main-container-padding'>
       <div className="services-text">
         <h5 className='sub-heading'>Services</h5>
         <h2 className='text-white'>My <span className='text-accent-color'> Special Services </span> For Your Business Development</h2>
@@ -50,6 +50,9 @@ export default function ServicesSection() {
                     <img src={arrowRightIcon} alt="icon" />
                 </div>
             </Link>
+        </div>
+        <div className="services-btn">
+            <Button title="My Services"/>
         </div>
       </div>
     </div>

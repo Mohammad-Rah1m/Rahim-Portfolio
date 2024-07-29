@@ -10,7 +10,7 @@ import Instagram from '../../assets/images/instagram.svg';
 export default function Footer() {
   return (
     <div className='footer-container'>
-      <div className="footer">
+      <div className="footer main-container-padding">
         <div className="footer-logo">
             <div className="footer-logo-item">
                 <img src={Logo} alt="icon"/>
