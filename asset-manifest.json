@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Rahim-Portfolio/static/css/main.f8dbf7ce.css",
+    "main.css": "/Rahim-Portfolio/static/css/main.1abdfcd1.css",
     "main.js": "/Rahim-Portfolio/static/js/main.71838a05.js",
     "static/js/453.ed3810f9.chunk.js": "/Rahim-Portfolio/static/js/453.ed3810f9.chunk.js",
     "static/media/AAOG.jpg": "/Rahim-Portfolio/static/media/AAOG.bbbf154d21346f09bf61.jpg",
@@ -36,12 +36,12 @@
     "static/media/arrow-up-right.svg": "/Rahim-Portfolio/static/media/arrow-up-right.4b0c4ca14e1f2518756800e68379841b.svg",
     "static/media/right.svg": "/Rahim-Portfolio/static/media/right.d45fd2f46e93f5c3aa0a7d0617d9fecf.svg",
     "static/media/check.svg": "/Rahim-Portfolio/static/media/check.2fb5bbaf2426132e07b8dd6eb9bb995f.svg",
-    "main.f8dbf7ce.css.map": "/Rahim-Portfolio/static/css/main.f8dbf7ce.css.map",
+    "main.1abdfcd1.css.map": "/Rahim-Portfolio/static/css/main.1abdfcd1.css.map",
     "main.71838a05.js.map": "/Rahim-Portfolio/static/js/main.71838a05.js.map",
     "453.ed3810f9.chunk.js.map": "/Rahim-Portfolio/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f8dbf7ce.css",
+    "static/css/main.1abdfcd1.css",
     "static/js/main.71838a05.js"
   ]
 }
