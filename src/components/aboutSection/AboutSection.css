@@ -67,7 +67,7 @@
   transform: scale(1.1);
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   .about-me {
     text-align: center;
     flex-wrap: wrap;
@@ -82,5 +82,8 @@
   .about-me-contact-block {
     padding: 20px !important;
     flex-direction: column;
+  }
+  .bullets-container {
+    align-items: center;
   }
 }/*# sourceMappingURL=AboutSection.css.map */

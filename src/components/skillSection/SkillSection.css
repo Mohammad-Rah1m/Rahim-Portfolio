@@ -58,12 +58,13 @@
   color: black;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1024px) {
   .skill-text {
     text-align: center;
   }
   .skill-container, .skill-details-container {
     flex-wrap: wrap;
+    justify-content: center;
   }
   .skill-details-item {
     width: 48% !important;
@@ -73,5 +74,7 @@
   }
   .button-main-container {
     padding-block: 5%;
+    display: flex;
+    justify-content: center;
   }
 }/*# sourceMappingURL=SkillSection.css.map */

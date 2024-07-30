@@ -6,7 +6,6 @@
   align-items: center;
   justify-content: space-between;
   background-color: var(--background-gray);
-  flex-wrap: wrap;
   gap: 20px;
 }
 .hero-section .hero-section-text h1 {
@@ -56,5 +55,10 @@
   }
   .hero-section-exp {
     padding: 20px !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .hero-section {
+    flex-wrap: wrap;
   }
 }/*# sourceMappingURL=HeroSection.css.map */
