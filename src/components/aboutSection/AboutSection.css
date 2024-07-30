@@ -86,4 +86,15 @@
   .bullets-container {
     align-items: center;
   }
+  .about-me-btn {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+  .about-me-img {
+    display: flex;
+    align-items: center;
+    margin-top: 5% !important;
+  }
 }/*# sourceMappingURL=AboutSection.css.map */

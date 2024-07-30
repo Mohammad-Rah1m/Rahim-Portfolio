@@ -27,6 +27,9 @@
                 border-radius: 10px;
                 transition: border .3s ease;
                 text-decoration: none;
+                .services-card-item-text{
+                    width: 70%;
+                }
                 .services-icon-container{
                     background-color: var(--accent-color);
                     width: 40px;
@@ -64,6 +67,6 @@
         width: 100% !important;
     }
     .services-card-item-text{
-        width: 70%;
+        // width: 70%;
     }
 }

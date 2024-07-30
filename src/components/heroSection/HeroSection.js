@@ -18,7 +18,7 @@ const HeroSection = () => {
       <div className="hero-section-img">
         <LottieAnimation />
       </div>
-      <div className="hero-section-exp">
+      {/* <div className="hero-section-exp">
         <div className="hero-section-exp-block">
           <h3>2+</h3>
           <p>YEARS OF EXPERIENCE</p>
@@ -31,7 +31,7 @@ const HeroSection = () => {
           <h3>99%</h3>
           <p>CLIENT SATISFACTION</p>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

@@ -52,7 +52,7 @@
     }
 }
 
-@media only screen and (max-width:600px){
+@media only screen and (max-width:768px){
     .footer{
         flex-wrap: wrap;
         padding-block: 10% !important;
@@ -73,5 +73,11 @@
     }
     .footer-logo{
         padding-bottom: 20px !important;
+        .footer-logo-item{
+            img{
+                width: 150px !important;
+            }
+        }
     }
+
 }
