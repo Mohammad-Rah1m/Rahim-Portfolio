@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Rahim-Portfolio/static/css/main.1abdfcd1.css",
-    "main.js": "/Rahim-Portfolio/static/js/main.71838a05.js",
+    "main.css": "/Rahim-Portfolio/static/css/main.d483631f.css",
+    "main.js": "/Rahim-Portfolio/static/js/main.3e9a86d3.js",
     "static/js/453.ed3810f9.chunk.js": "/Rahim-Portfolio/static/js/453.ed3810f9.chunk.js",
     "static/media/AAOG.jpg": "/Rahim-Portfolio/static/media/AAOG.bbbf154d21346f09bf61.jpg",
     "static/media/Woofly-Box.jpg": "/Rahim-Portfolio/static/media/Woofly-Box.ed37c647f9f6301c17fe.jpg",
@@ -32,16 +32,17 @@
     "static/media/linkedin.svg": "/Rahim-Portfolio/static/media/linkedin.e9de40231488e8b6c155e79615ed5feb.svg",
     "static/media/mail.svg": "/Rahim-Portfolio/static/media/mail.eee1baa73917a6ad8cc5ab655510875a.svg",
     "static/media/mail-footer.svg": "/Rahim-Portfolio/static/media/mail-footer.5b4e45bfe6c7ec05a40a90bf81c13ecc.svg",
+    "static/media/menu.svg": "/Rahim-Portfolio/static/media/menu.644fa295fdd5f662e642ba6bfb084239.svg",
     "static/media/map-pin.svg": "/Rahim-Portfolio/static/media/map-pin.3c2c75b11e91549a6d543265148239cd.svg",
     "static/media/arrow-up-right.svg": "/Rahim-Portfolio/static/media/arrow-up-right.4b0c4ca14e1f2518756800e68379841b.svg",
     "static/media/right.svg": "/Rahim-Portfolio/static/media/right.d45fd2f46e93f5c3aa0a7d0617d9fecf.svg",
     "static/media/check.svg": "/Rahim-Portfolio/static/media/check.2fb5bbaf2426132e07b8dd6eb9bb995f.svg",
-    "main.1abdfcd1.css.map": "/Rahim-Portfolio/static/css/main.1abdfcd1.css.map",
-    "main.71838a05.js.map": "/Rahim-Portfolio/static/js/main.71838a05.js.map",
+    "main.d483631f.css.map": "/Rahim-Portfolio/static/css/main.d483631f.css.map",
+    "main.3e9a86d3.js.map": "/Rahim-Portfolio/static/js/main.3e9a86d3.js.map",
     "453.ed3810f9.chunk.js.map": "/Rahim-Portfolio/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1abdfcd1.css",
-    "static/js/main.71838a05.js"
+    "static/css/main.d483631f.css",
+    "static/js/main.3e9a86d3.js"
   ]
 }
