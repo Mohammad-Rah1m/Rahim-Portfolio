@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Rahim-Portfolio/static/css/main.d483631f.css",
-    "main.js": "/Rahim-Portfolio/static/js/main.3e9a86d3.js",
+    "main.css": "/Rahim-Portfolio/static/css/main.86c213d0.css",
+    "main.js": "/Rahim-Portfolio/static/js/main.94e959f2.js",
     "static/js/453.ed3810f9.chunk.js": "/Rahim-Portfolio/static/js/453.ed3810f9.chunk.js",
     "static/media/AAOG.jpg": "/Rahim-Portfolio/static/media/AAOG.bbbf154d21346f09bf61.jpg",
     "static/media/Woofly-Box.jpg": "/Rahim-Portfolio/static/media/Woofly-Box.ed37c647f9f6301c17fe.jpg",
@@ -37,12 +37,12 @@
     "static/media/arrow-up-right.svg": "/Rahim-Portfolio/static/media/arrow-up-right.4b0c4ca14e1f2518756800e68379841b.svg",
     "static/media/right.svg": "/Rahim-Portfolio/static/media/right.d45fd2f46e93f5c3aa0a7d0617d9fecf.svg",
     "static/media/check.svg": "/Rahim-Portfolio/static/media/check.2fb5bbaf2426132e07b8dd6eb9bb995f.svg",
-    "main.d483631f.css.map": "/Rahim-Portfolio/static/css/main.d483631f.css.map",
-    "main.3e9a86d3.js.map": "/Rahim-Portfolio/static/js/main.3e9a86d3.js.map",
+    "main.86c213d0.css.map": "/Rahim-Portfolio/static/css/main.86c213d0.css.map",
+    "main.94e959f2.js.map": "/Rahim-Portfolio/static/js/main.94e959f2.js.map",
     "453.ed3810f9.chunk.js.map": "/Rahim-Portfolio/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d483631f.css",
-    "static/js/main.3e9a86d3.js"
+    "static/css/main.86c213d0.css",
+    "static/js/main.94e959f2.js"
   ]
 }
