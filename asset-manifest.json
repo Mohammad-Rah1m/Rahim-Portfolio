@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Rahim-Portfolio/static/css/main.86c213d0.css",
-    "main.js": "/Rahim-Portfolio/static/js/main.94e959f2.js",
-    "static/js/453.ed3810f9.chunk.js": "/Rahim-Portfolio/static/js/453.ed3810f9.chunk.js",
+    "main.css": "/Rahim-Portfolio/static/css/main.fed63c09.css",
+    "main.js": "/Rahim-Portfolio/static/js/main.e1ba4b25.js",
+    "static/js/453.68693753.chunk.js": "/Rahim-Portfolio/static/js/453.68693753.chunk.js",
     "static/media/AAOG.jpg": "/Rahim-Portfolio/static/media/AAOG.bbbf154d21346f09bf61.jpg",
     "static/media/Woofly-Box.jpg": "/Rahim-Portfolio/static/media/Woofly-Box.ed37c647f9f6301c17fe.jpg",
     "static/media/Lubu.jpg": "/Rahim-Portfolio/static/media/Lubu.c998e9c979ab305b4a4b.jpg",
@@ -16,16 +16,17 @@
     "static/media/node-js.png": "/Rahim-Portfolio/static/media/node-js.e328955d6bbbf3ebc72b.png",
     "static/media/xd.png": "/Rahim-Portfolio/static/media/xd.aae044bd78f1cc158453.png",
     "static/media/wordpress.png": "/Rahim-Portfolio/static/media/wordpress.11ed091523e3152b651f.png",
+    "static/media/client1.png": "/Rahim-Portfolio/static/media/client1.7638a75877f1ea7c5560.png",
     "static/media/figma.png": "/Rahim-Portfolio/static/media/figma.72fbc535ebe253a5dbc4.png",
     "static/media/html.png": "/Rahim-Portfolio/static/media/html.6e930594286d8afe4c79.png",
     "static/media/java-script.png": "/Rahim-Portfolio/static/media/java-script.78206ba65e01c7d57080.png",
     "static/media/css-3.png": "/Rahim-Portfolio/static/media/css-3.463e319bad8e0edf1ef7.png",
     "static/media/whitelogonew.svg": "/Rahim-Portfolio/static/media/whitelogonew.0fc204eab71ba5866d2ff88503b317b6.svg",
+    "index.html": "/Rahim-Portfolio/index.html",
     "static/media/slick.svg": "/Rahim-Portfolio/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/Rahim-Portfolio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/Rahim-Portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Rahim-Portfolio/static/media/slick.295183786cd8a1389865.woff",
-    "index.html": "/Rahim-Portfolio/index.html",
     "static/media/phone.svg": "/Rahim-Portfolio/static/media/phone.22904118b466d50710a6927da97da9cf.svg",
     "static/media/phone-footer.svg": "/Rahim-Portfolio/static/media/phone-footer.de5235e8fdc18db83f45dca17bdd74ec.svg",
     "static/media/instagram.svg": "/Rahim-Portfolio/static/media/instagram.21b95d53bb704228f33f13bc54e8380d.svg",
@@ -37,12 +38,13 @@
     "static/media/arrow-up-right.svg": "/Rahim-Portfolio/static/media/arrow-up-right.4b0c4ca14e1f2518756800e68379841b.svg",
     "static/media/right.svg": "/Rahim-Portfolio/static/media/right.d45fd2f46e93f5c3aa0a7d0617d9fecf.svg",
     "static/media/check.svg": "/Rahim-Portfolio/static/media/check.2fb5bbaf2426132e07b8dd6eb9bb995f.svg",
-    "main.86c213d0.css.map": "/Rahim-Portfolio/static/css/main.86c213d0.css.map",
-    "main.94e959f2.js.map": "/Rahim-Portfolio/static/js/main.94e959f2.js.map",
-    "453.ed3810f9.chunk.js.map": "/Rahim-Portfolio/static/js/453.ed3810f9.chunk.js.map"
+    "static/media/circle.svg": "/Rahim-Portfolio/static/media/circle.289d867f69757c87e15a55f77e7718d7.svg",
+    "main.fed63c09.css.map": "/Rahim-Portfolio/static/css/main.fed63c09.css.map",
+    "main.e1ba4b25.js.map": "/Rahim-Portfolio/static/js/main.e1ba4b25.js.map",
+    "453.68693753.chunk.js.map": "/Rahim-Portfolio/static/js/453.68693753.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.86c213d0.css",
-    "static/js/main.94e959f2.js"
+    "static/css/main.fed63c09.css",
+    "static/js/main.e1ba4b25.js"
   ]
 }
