@@ -7,11 +7,27 @@
     text-align: center;
     background-color: var(--background-lightgray);
     color: white;
-    padding-block:5%;
-    p{
-        color: lightgray;
-    }
-    h1{
-        color: var(--accent-color);
+    padding-block:8%;
+    .page-header-menu{
+        display: flex;
+        align-items: center;
+        gap:10px;
+        margin-top: 2%;
+        img{
+            width: 5px;
+            background-color: white;
+            border-radius: 100px;
+        }
+        .page-header-link{
+            text-decoration: none;
+            color: white;
+        }
+        h6{
+            margin-bottom: 0px;
+            font-weight: 600;
+        }
+        .active{
+            color: var(--accent-color);
+        }
     }
 }

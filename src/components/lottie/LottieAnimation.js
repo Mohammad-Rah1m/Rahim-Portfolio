@@ -1,6 +1,6 @@
 import React from 'react';
 import Lottie from 'lottie-react';
-import animationData from '../../assets/lottie/hero-section2.json';
+import animationData from '../../assets/lottie/hero-animation.json';
 
 const LottieAnimation = () => {
   return (

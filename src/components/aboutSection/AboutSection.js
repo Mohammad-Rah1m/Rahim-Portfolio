@@ -45,7 +45,6 @@ export default function AboutSection() {
               </div>
         </div>
         <div className="about-me-img">
-          {/* <img src={require('../../assets/images/about.jpg')} alt='about-picture'/> */}
           <AboutAnimation/>
           <div className="about-me-contact">
                   <Link to="/" className="about-me-contact-block">

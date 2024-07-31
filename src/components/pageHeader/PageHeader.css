@@ -7,11 +7,27 @@
   text-align: center;
   background-color: var(--background-lightgray);
   color: white;
-  padding-block: 5%;
+  padding-block: 8%;
 }
-.page-header-container p {
-  color: lightgray;
+.page-header-container .page-header-menu {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 2%;
 }
-.page-header-container h1 {
+.page-header-container .page-header-menu img {
+  width: 5px;
+  background-color: white;
+  border-radius: 100px;
+}
+.page-header-container .page-header-menu .page-header-link {
+  text-decoration: none;
+  color: white;
+}
+.page-header-container .page-header-menu h6 {
+  margin-bottom: 0px;
+  font-weight: 600;
+}
+.page-header-container .page-header-menu .active {
   color: var(--accent-color);
 }/*# sourceMappingURL=PageHeader.css.map */

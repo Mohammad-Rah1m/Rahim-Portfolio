@@ -1,7 +1,11 @@
 import React from 'react'
 import Header from '../../components/pageHeader/PageHeader.js'
-import Button from '../../components/button/Button.js'
+import AboutSection from '../../components/aboutSection/AboutSection.js'
+import ResumeSection from '../../components/resumeSection/ResumeSection.js'
+import Skills from '../../components/skillSection/SkillSection.js'
+import Testimonials from '../../components/testimonial/Testimonial.js'
 import './About.css'
+
 export default function About() {
   return (
     <div className='about-container'>
@@ -9,53 +13,19 @@ export default function About() {
       with a keen eye for aesthetics and a deep understanding of modern web technologies. 
       Specializing in creating responsive, user-friendly websites, I blend creativity with 
       technical expertise to deliver seamless digital experiences."/>
-      <div className='about-services'>
-        <div className="about-services-heading">
-            <h5>
-                Popular Services
-            </h5>
-            <h2>
-            My <span>Special Service</span> For your Business Development
-            </h2>
+      <AboutSection/>
+      <ResumeSection/>
+      <Skills/>
+      <div className="about-container-testimonials main-container-padding">
+        <div className="testimonials-text">
+            <h5 className='sub-heading'>Clients Testimonials</h5>
+            <h2 className='text-white'>I've 100+ Clients <span className='text-accent-color'>Feedback</span></h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit temporibus, quam nobis unde eligendi quisquam reiciendis optio!</p>
         </div>
-        <div className="about-services-cards">
-            <div className="about-services-cards-block">
-                <div className="about-services-cards-item">
-                    <div className="cards-item-number">
-                        <h3>01</h3>
-                    </div>
-                    <div className="cards-item-text">
-                        <h3>Brand Identity Design</h3>
-                        <p>Lorem, ipsum dolor.</p>
-                    </div>
-                </div>
-                <div className="about-services-cards-item">
-                    <div className="cards-item-number">
-                        <h3>02</h3>
-                    </div>
-                    <div className="cards-item-text">
-                        <h3>Website Design</h3>
-                        <p>Lorem, ipsum dolor.</p>
-                    </div>
-                </div>
-            </div>
+        <div className="testimonials-item">
+            <Testimonials/>
         </div>
       </div>
-      <div className="about-me-exp">
-            <div className="about-me-exp-text">
-                <h5>Experience</h5>
-                <h2>Professional <span>Problem Solutions</span> For Digital Products</h2>
-                <p class="desc">At vero eos et accusamus etodio dignissimos ducimus praesentium voluptatum 
-                    corrupti quos dolores quas molestias excepturi sint occaecati cupiditate 
-                    provident qui officia deserunt mollitia animi, id est laborum et dolorum</p>
-                    <Button title="Hire Me"/>
-            </div>
-            <div className="about-me-exp-img">
-                <div className='img-text'>
-                    <h4>2+ Years Of Experience</h4>
-                </div>
-            </div>
-        </div>
     </div>
   )
 }

@@ -1,0 +1,45 @@
+.testimonial {
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    border-radius: 10px;
+    display: flex !important;
+    flex-direction: column;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+  }
+  .client-image{
+    width: 50px;
+  }
+  .quote {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    font-style: italic;
+    color: gray;
+  }
+  
+  .author {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: gray;
+  }
+  
+  .position {
+    color: white;
+  }
+  .slick-slide {
+    padding: 0 10px; /* Adjust the padding value to control the gap */
+    box-sizing: border-box; /* Ensure padding is included in the element's total width */
+  }
+  
+  .slick-dots li button:before{
+    color: white;
+  }
+  .slick-dots li.slick-active button:before{
+    color: var(--accent-color);
+  }
+  .slick-dots li{
+    margin: 0px;
+  }

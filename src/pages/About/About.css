@@ -1,69 +1,31 @@
-.about-container .about-services {
-  background-color: black;
-  padding-inline: 10%;
-  padding-block: 5%;
-}
-.about-container .about-services .about-services-heading {
-  color: white;
-  text-align: center;
-  padding-inline: 10%;
-}
-.about-container .about-services .about-services-heading span {
-  color: var(--accent-color);
-}
-.about-container .about-services .about-services-cards {
-  margin-top: 5%;
-}
-.about-container .about-services .about-services-cards .about-services-cards-block {
-  display: flex;
-  gap: 20px;
-  justify-content: space-between;
-}
-.about-container .about-services .about-services-cards .about-services-cards-block .about-services-cards-item {
-  display: flex;
-  gap: 20px;
+.about-container-testimonials {
   background-color: var(--background-lightgray);
-  color: white;
-  width: 50%;
-  padding: 3%;
-  border-radius: 10px;
-}
-.about-container .about-services .about-services-cards .about-services-cards-block .about-services-cards-item .cards-item-number {
-  color: lightgray;
-}
-.about-container .about-services .about-services-cards .about-services-cards-block .about-services-cards-item .cards-item-text p {
-  color: lightgray;
-  margin: 0px;
-}
-.about-container .about-me-exp {
-  padding-inline: 10%;
   padding-block: 5%;
-  background-color: var(--background-lightgray);
+  padding-inline: 10%;
   display: flex;
   align-items: center;
   gap: 20px;
 }
-.about-container .about-me-exp h2 {
-  color: white;
+.about-container-testimonials .testimonials-text {
+  width: 40%;
 }
-.about-container .about-me-exp p.desc {
-  color: lightgray;
+.about-container-testimonials .testimonials-text p {
+  color: gray;
 }
-.about-container .about-me-exp span {
-  color: var(--accent-color);
-}
-.about-container .about-me-exp .about-me-exp-img {
-  color: var(--accent-color);
-}
-.about-container .about-me-exp .about-me-exp-text {
-  width: 70%;
-}
-.about-container .about-me-exp .about-me-exp-img {
-  width: 30%;
-}
-.about-container .about-me-exp .about-me-exp-img .img-text {
-  border: 1px solid var(--accent-color);
-  padding: 5%;
-  text-align: center;
+.about-container-testimonials .testimonials-item {
+  width: 60%;
   border-radius: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .about-container-testimonials {
+    flex-direction: column;
+  }
+  .about-container-testimonials .testimonials-text {
+    width: 100% !important;
+    text-align: center;
+  }
+  .about-container-testimonials .testimonials-item {
+    width: 100% !important;
+  }
 }/*# sourceMappingURL=About.css.map */
