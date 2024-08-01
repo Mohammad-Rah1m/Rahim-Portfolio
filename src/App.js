@@ -7,6 +7,7 @@ import Footer from './components/footer/Footer.js'
 import Home from './pages/Home/Home.js'
 import About from './pages/About/About.js'
 import Services from './pages/Services/Services.js'
+import Projects from './pages/Projects/Projects.js'
 // import About from './components/About.js'
 // import Contact from './components/Contact.js'
 import React, { useState } from 'react';
@@ -36,6 +37,7 @@ function App() {
           <Route exact path="/" element={<Home />} />
           <Route exact path="/about" element={<About />} />
           <Route exact path="/services" element={<Services />} />
+          <Route exact path="/projects" element={<Projects />} />
         </Routes>
     </Router>
     <Footer/>

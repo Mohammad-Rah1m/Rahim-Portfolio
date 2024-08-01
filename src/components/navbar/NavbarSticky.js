@@ -31,6 +31,9 @@ export default function NavbarSticky(props) {
         <div className="navbar-menu-item">
           <NavLink className="nav-link" activeClassName="active" to="/services">Services</NavLink>
         </div>
+        <div className="navbar-menu-item">
+          <NavLink className="nav-link" activeClassName="active" to="/projects">Projects</NavLink>
+        </div>
         <div className="navbar-contact-mobile">
           <Button title="Get In Touch" />
       </div>
