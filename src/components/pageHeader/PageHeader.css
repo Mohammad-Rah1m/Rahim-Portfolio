@@ -7,7 +7,7 @@
   text-align: center;
   background-color: var(--background-lightgray);
   color: white;
-  padding-block: 8%;
+  padding-block: 5%;
 }
 .page-header-container .page-header-menu {
   display: flex;
