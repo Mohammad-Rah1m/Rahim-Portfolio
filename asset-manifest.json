@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Rahim-Portfolio/static/css/main.12ec7efd.css",
-    "main.js": "/Rahim-Portfolio/static/js/main.19b53e3d.js",
+    "main.css": "/Rahim-Portfolio/static/css/main.87172dba.css",
+    "main.js": "/Rahim-Portfolio/static/js/main.db36442d.js",
     "static/js/453.68693753.chunk.js": "/Rahim-Portfolio/static/js/453.68693753.chunk.js",
     "static/media/About.png": "/Rahim-Portfolio/static/media/About.c843de14cf31c3d16f9e.png",
     "static/media/Services.png": "/Rahim-Portfolio/static/media/Services.501a30ee70b927ea5c19.png",
@@ -9,6 +9,7 @@
     "static/media/Woofly-Box.jpg": "/Rahim-Portfolio/static/media/Woofly-Box.ed37c647f9f6301c17fe.jpg",
     "static/media/Lubu.jpg": "/Rahim-Portfolio/static/media/Lubu.c998e9c979ab305b4a4b.jpg",
     "static/media/Sweathead-1.jpg": "/Rahim-Portfolio/static/media/Sweathead-1.cd93a089bde84d5728ea.jpg",
+    "static/media/Projects.png": "/Rahim-Portfolio/static/media/Projects.e1abcb3eb6ac53b21ac5.png",
     "static/media/Brotha-whiskey.jpg": "/Rahim-Portfolio/static/media/Brotha-whiskey.f72d460803255b2e0301.jpg",
     "static/media/Local-growth.jpg": "/Rahim-Portfolio/static/media/Local-growth.c48f453ce7854b7bf8a3.jpg",
     "static/media/Recharge-Health.jpg": "/Rahim-Portfolio/static/media/Recharge-Health.f2e2c997de5ca21c41f2.jpg",
@@ -41,12 +42,12 @@
     "static/media/right.svg": "/Rahim-Portfolio/static/media/right.d45fd2f46e93f5c3aa0a7d0617d9fecf.svg",
     "static/media/check.svg": "/Rahim-Portfolio/static/media/check.2fb5bbaf2426132e07b8dd6eb9bb995f.svg",
     "static/media/circle.svg": "/Rahim-Portfolio/static/media/circle.289d867f69757c87e15a55f77e7718d7.svg",
-    "main.12ec7efd.css.map": "/Rahim-Portfolio/static/css/main.12ec7efd.css.map",
-    "main.19b53e3d.js.map": "/Rahim-Portfolio/static/js/main.19b53e3d.js.map",
+    "main.87172dba.css.map": "/Rahim-Portfolio/static/css/main.87172dba.css.map",
+    "main.db36442d.js.map": "/Rahim-Portfolio/static/js/main.db36442d.js.map",
     "453.68693753.chunk.js.map": "/Rahim-Portfolio/static/js/453.68693753.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.12ec7efd.css",
-    "static/js/main.19b53e3d.js"
+    "static/css/main.87172dba.css",
+    "static/js/main.db36442d.js"
   ]
 }
