@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/Rahim-Portfolio/static/css/main.87172dba.css",
-    "main.js": "/Rahim-Portfolio/static/js/main.db36442d.js",
+    "main.css": "/Rahim-Portfolio/static/css/main.5c66826b.css",
+    "main.js": "/Rahim-Portfolio/static/js/main.2b261bb5.js",
+    "static/js/897.87663771.chunk.js": "/Rahim-Portfolio/static/js/897.87663771.chunk.js",
     "static/js/453.68693753.chunk.js": "/Rahim-Portfolio/static/js/453.68693753.chunk.js",
     "static/media/About.png": "/Rahim-Portfolio/static/media/About.c843de14cf31c3d16f9e.png",
     "static/media/Services.png": "/Rahim-Portfolio/static/media/Services.501a30ee70b927ea5c19.png",
@@ -42,12 +43,13 @@
     "static/media/right.svg": "/Rahim-Portfolio/static/media/right.d45fd2f46e93f5c3aa0a7d0617d9fecf.svg",
     "static/media/check.svg": "/Rahim-Portfolio/static/media/check.2fb5bbaf2426132e07b8dd6eb9bb995f.svg",
     "static/media/circle.svg": "/Rahim-Portfolio/static/media/circle.289d867f69757c87e15a55f77e7718d7.svg",
-    "main.87172dba.css.map": "/Rahim-Portfolio/static/css/main.87172dba.css.map",
-    "main.db36442d.js.map": "/Rahim-Portfolio/static/js/main.db36442d.js.map",
+    "main.5c66826b.css.map": "/Rahim-Portfolio/static/css/main.5c66826b.css.map",
+    "main.2b261bb5.js.map": "/Rahim-Portfolio/static/js/main.2b261bb5.js.map",
+    "897.87663771.chunk.js.map": "/Rahim-Portfolio/static/js/897.87663771.chunk.js.map",
     "453.68693753.chunk.js.map": "/Rahim-Portfolio/static/js/453.68693753.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.87172dba.css",
-    "static/js/main.db36442d.js"
+    "static/css/main.5c66826b.css",
+    "static/js/main.2b261bb5.js"
   ]
 }
