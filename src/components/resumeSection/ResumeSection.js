@@ -59,7 +59,7 @@ export default function ResumeSection() {
           </div>
         </div>
         <div className="my-resume-btn">
-          <Button title="Contact Me"/>
+          <Button title="Contact Me" linkUrl='/contact'/>
         </div>
       </div>
   )

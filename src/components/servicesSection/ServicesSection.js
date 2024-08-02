@@ -52,7 +52,7 @@ export default function ServicesSection() {
             </Link>
         </div>
         <div className="services-btn">
-            <Button title="My Services"/>
+            <Button title="My Services" linkUrl='/services'/>
         </div>
       </div>
     </div>

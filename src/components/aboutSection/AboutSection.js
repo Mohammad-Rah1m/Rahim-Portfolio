@@ -41,7 +41,7 @@ export default function AboutSection() {
                 </div>
               </div>
               <div className="about-me-btn">
-                <Button title='About Me'/>
+                <Button title='About Me' linkUrl='/about'/>
               </div>
         </div>
         <div className="about-me-img">

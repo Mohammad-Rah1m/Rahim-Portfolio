@@ -10,9 +10,10 @@ import Services from './pages/Services/Services.js'
 import Projects from './pages/Projects/Projects.js'
 // import About from './components/About.js'
 // import Contact from './components/Contact.js'
-import React, { useState } from 'react';
+import React, { useState } from 'react';  
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './styles/global.css';
+import ScrollToTop from './components/scrollToTop/ScrollToTop.js';
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
   return (
     <>
     <Router basename="/Rahim-Portfolio">
+      <ScrollToTop />
       <Navbar title="Mohammad Rahim"/>
       {/* <Counter mode={mode}/> */}
         <Routes>

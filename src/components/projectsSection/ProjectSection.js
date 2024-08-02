@@ -37,7 +37,7 @@ export default function ProjectSection() {
         </Marquee>  
       </div>
       <div className="project-btn">
-        <Button title='Recent Projects'/>
+        <Button title='Recent Projects' linkUrl='/projects'/>
       </div>
     </div>
   )

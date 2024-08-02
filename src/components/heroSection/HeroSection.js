@@ -1,8 +1,11 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import Button from '../../components/button/Button';
 // import RahimImage from '../../assets/images/rahimbg.png';
-import LottieAnimation from '../../components/lottie/LottieAnimation.js';
+// import LottieAnimation from '../../components/lottie/LottieAnimation.js';
 import './HeroSection.css';
+
+const LottieAnimation = React.lazy(() => import('../../components/lottie/LottieAnimation.js'));
+
 
 const HeroSection = () => {
   return (
@@ -12,11 +15,13 @@ const HeroSection = () => {
         <h1>Mohammad Rahim</h1>
         <h4>Web Designer & Developer</h4>
         <div className='hero-section-text-button'>
-          <Button title="Hire Me" />
+          <Button title="Hire Me" linkUrl='/contact'/>
         </div>
       </div>
       <div className="hero-section-img">
+      <Suspense fallback={<div>Loading lottie animation...</div>}>
         <LottieAnimation />
+      </Suspense>
       </div>
       {/* <div className="hero-section-exp">
         <div className="hero-section-exp-block">

@@ -18,7 +18,7 @@ export default function SkillSection() {
         <h2 className='text-white'>Explore My <span className='text-accent-color'>Skills & Experience</span></h2>
         <p className='text-gray'>As a web developer with a strong foundation in both web development and web design, I possess a diverse skill set that spans front-end and back-end technologies</p>
         <div className="skill-btn">
-            <Button title='My Skills'/>
+            <Button title='My Skills' linkUrl='/about'/>
         </div>
       </div>
       <div className="skill-details">
