@@ -35,11 +35,11 @@ export default function NavbarSticky(props) {
           <NavLink className="nav-link" activeClassName="active" to="/projects">Projects</NavLink>
         </div>
         <div className="navbar-contact-mobile">
-          <Button title="Get In Touch" />
+          <Button title="Get In Touch" linkUrl='/contact'/>
       </div>
       </div>
       <div className="navbar-contact-desktop">
-          <Button title="Get In Touch" />
+          <Button title="Get In Touch" linkUrl='/contact'/>
       </div>
     </div>
   );

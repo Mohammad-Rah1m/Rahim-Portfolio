@@ -19,7 +19,7 @@ export default function Projects() {
   return (
     <div className='my-projects'>
       <Header title="Projects"/>
-      <SecondaryHeader SecondaryHeaderImage={SecondaryImage} SubHeading='Recent Projects' BeforeSpanHeading='Real World' InsideSpanHeading='Projects' AfterSpanHeading='Completed' SecondaryHeaderDescription='My recent projects showcase my expertise in both WordPress and React.js, reflecting my ability to deliver robust and dynamic web solutions.' ButtonTitle='Contact Me'/>
+      <SecondaryHeader SecondaryHeaderImage={SecondaryImage} SubHeading='Recent Projects' BeforeSpanHeading='Real World' InsideSpanHeading='Projects' AfterSpanHeading='Completed' SecondaryHeaderDescription='My recent projects showcase my expertise in both WordPress and React.js, reflecting my ability to deliver robust and dynamic web solutions.' ButtonTitle='Contact Me' linkUrl='/contact'/>
       <div className="projects-container main-container-padding">
         <div className="projects-item">
             <div className="projects-item-img">

@@ -8,9 +8,10 @@ import Home from './pages/Home/Home.js'
 import About from './pages/About/About.js'
 import Services from './pages/Services/Services.js'
 import Projects from './pages/Projects/Projects.js'
+import Contact from './pages/Contact/Contact.js'
 // import About from './components/About.js'
 // import Contact from './components/Contact.js'
-import React, { useState } from 'react';  
+import React from 'react';  
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './styles/global.css';
 import ScrollToTop from './components/scrollToTop/ScrollToTop.js';
@@ -40,6 +41,7 @@ function App() {
           <Route exact path="/about" element={<About />} />
           <Route exact path="/services" element={<Services />} />
           <Route exact path="/projects" element={<Projects />} />
+          <Route exact path="/contact" element={<Contact />} />
         </Routes>
     </Router>
     <Footer/>

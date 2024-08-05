@@ -1,6 +1,5 @@
 import React from 'react'
 import Header from '../../components/pageHeader/PageHeader.js'
-import AboutSection from '../../components/aboutSection/AboutSection.js'
 import ResumeSection from '../../components/resumeSection/ResumeSection.js'
 import Skills from '../../components/skillSection/SkillSection.js'
 import Testimonials from '../../components/testimonial/Testimonial.js'
@@ -12,7 +11,7 @@ export default function About() {
   return (
     <div className='about-container'>
       <Header title="About"/>
-      <SecondaryHeader SecondaryHeaderImage={SecondaryImage} SubHeading='Who Am I' BeforeSpanHeading='Experienced' InsideSpanHeading='Web Designer & Developer' AfterSpanHeading='' SecondaryHeaderDescription='As a passionate and innovative web designer and developer, I bring two years of professional experience in creating dynamic, user-centric websites. My expertise lies in custom web development, WordPress solutions, and front-end development using React.' ButtonTitle='Contact Me'/>
+      <SecondaryHeader SecondaryHeaderImage={SecondaryImage} SubHeading='Who Am I' BeforeSpanHeading='Experienced' InsideSpanHeading='Web Designer & Developer' AfterSpanHeading='' SecondaryHeaderDescription='As a passionate and innovative web designer and developer, I bring two years of professional experience in creating dynamic, user-centric websites. My expertise lies in custom web development, WordPress solutions, and front-end development using React.' ButtonTitle='Contact Me' linkUrl='/contact'/>
       <Skills/>
       {/* <AboutSection/> */}
       <ResumeSection/>
