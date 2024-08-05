@@ -19,7 +19,7 @@ const App = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    emailjs.send('service_9dtzs9p', 'template_54a23ye', formData, 'O4dFK-5tLNAKo-FRE')
+    emailjs.send('service_ls156ui', 'template_35nqcdt', formData, '3ZT1jTIKK0wp5YR9g')
       .then((response) => {
         console.log('SUCCESS!', response.status, response.text);
         alert("Message sent successfully!");
