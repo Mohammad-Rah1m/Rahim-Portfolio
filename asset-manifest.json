@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Rahim-Portfolio/static/css/main.ba9155bc.css",
-    "main.js": "/Rahim-Portfolio/static/js/main.38f2c154.js",
+    "main.css": "/Rahim-Portfolio/static/css/main.56c9331d.css",
+    "main.js": "/Rahim-Portfolio/static/js/main.c4b4f251.js",
     "static/js/897.87663771.chunk.js": "/Rahim-Portfolio/static/js/897.87663771.chunk.js",
     "static/js/453.68693753.chunk.js": "/Rahim-Portfolio/static/js/453.68693753.chunk.js",
     "static/media/About.png": "/Rahim-Portfolio/static/media/About.c843de14cf31c3d16f9e.png",
@@ -31,6 +31,7 @@
     "static/media/slick.eot": "/Rahim-Portfolio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/Rahim-Portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Rahim-Portfolio/static/media/slick.295183786cd8a1389865.woff",
+    "static/media/github.svg": "/Rahim-Portfolio/static/media/github.102f40335f75bc516dec055f87c2f998.svg",
     "static/media/phone.svg": "/Rahim-Portfolio/static/media/phone.22904118b466d50710a6927da97da9cf.svg",
     "static/media/phone-footer.svg": "/Rahim-Portfolio/static/media/phone-footer.de5235e8fdc18db83f45dca17bdd74ec.svg",
     "static/media/instagram.svg": "/Rahim-Portfolio/static/media/instagram.21b95d53bb704228f33f13bc54e8380d.svg",
@@ -43,13 +44,13 @@
     "static/media/right.svg": "/Rahim-Portfolio/static/media/right.d45fd2f46e93f5c3aa0a7d0617d9fecf.svg",
     "static/media/check.svg": "/Rahim-Portfolio/static/media/check.2fb5bbaf2426132e07b8dd6eb9bb995f.svg",
     "static/media/circle.svg": "/Rahim-Portfolio/static/media/circle.289d867f69757c87e15a55f77e7718d7.svg",
-    "main.ba9155bc.css.map": "/Rahim-Portfolio/static/css/main.ba9155bc.css.map",
-    "main.38f2c154.js.map": "/Rahim-Portfolio/static/js/main.38f2c154.js.map",
+    "main.56c9331d.css.map": "/Rahim-Portfolio/static/css/main.56c9331d.css.map",
+    "main.c4b4f251.js.map": "/Rahim-Portfolio/static/js/main.c4b4f251.js.map",
     "897.87663771.chunk.js.map": "/Rahim-Portfolio/static/js/897.87663771.chunk.js.map",
     "453.68693753.chunk.js.map": "/Rahim-Portfolio/static/js/453.68693753.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ba9155bc.css",
-    "static/js/main.38f2c154.js"
+    "static/css/main.56c9331d.css",
+    "static/js/main.c4b4f251.js"
   ]
 }
