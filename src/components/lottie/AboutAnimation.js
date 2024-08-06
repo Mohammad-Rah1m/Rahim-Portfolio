@@ -1,6 +1,6 @@
 import React from 'react';
 import Lottie from 'lottie-react';
-import animationData from '../../assets/lottie/about.json';
+import animationData from '../../assets/lottie/hero-section2.json';
 
 const LottieAnimation = () => {
   return (
@@ -9,7 +9,7 @@ const LottieAnimation = () => {
         animationData={animationData}
         loop={true}
         autoplay={true}
-        // style={{ width: 400, height: 400 }}
+        // style={{ width: 400, height: 300 }}
         />
     </div>
   );

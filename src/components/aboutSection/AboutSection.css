@@ -32,6 +32,7 @@
   margin-top: -40px;
 }
 .about-me .about-me-img .about-me-contact {
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
   gap: 20px;

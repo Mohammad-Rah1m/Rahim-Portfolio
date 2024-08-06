@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink , Link } from 'react-router-dom';
 // import { FaBars } from 'react-icons/fa';
 import './NavbarSticky.css';
 import LogoWhite from '../../assets/images/whitelogonew.svg';
@@ -16,7 +16,7 @@ export default function NavbarSticky(props) {
   return (
     <div className="navbar-container">
       <div className="navbar-logo">
-        <img src={LogoWhite} alt="logo"/>
+        <Link to="/"><img src={LogoWhite} alt="logo"/></Link>
       </div>
       <div className="navbar-hamburger" onClick={toggleMenu}>
         <img src={Hamburger} alt='hamburger-icon'/>

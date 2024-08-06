@@ -5,7 +5,7 @@ import AboutAnimation from '../../components/lottie/AboutAnimation.js';
 import mailIcon from '../../assets/images/mail.svg';
 import phoneIcon from '../../assets/images/phone.svg';
 import CheckIcon from '../../assets/images/check.svg';
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 
 export default function AboutSection() {
   return (
@@ -47,7 +47,7 @@ export default function AboutSection() {
         <div className="about-me-img">
           <AboutAnimation/>
           <div className="about-me-contact">
-                  <Link to="/" className="about-me-contact-block">
+                  <a href="mailto:rahimchangezi5@gmail.com" className="about-me-contact-block">
                     <div className="about-me-contact-block-icon">
                         <img src={mailIcon} alt="icon" />
                     </div>
@@ -55,16 +55,18 @@ export default function AboutSection() {
                         <h6 className='text-gray'>Email Me</h6>
                         <h5 className='text-white'>Rahimchangezi5@gmail.com</h5>
                     </div>
-                  </Link>
-                  <Link to="/" className="about-me-contact-block">
+                  </a>
+                    
+                  
+                  <a href="mailto:rahimchangezi5@gmail.com" className="about-me-contact-block">
                     <div className="about-me-contact-block-icon">
                         <img src={phoneIcon} alt="icon" />
                     </div>
                     <div className="about-me-contact-block-text">
-                        <h6 className='text-gray'>Call me</h6>
+                        <h6 className='text-gray'>Call Me</h6>
                         <h5 className='text-white'>03138437243</h5>
                     </div>
-                  </Link>
+                  </a>
               </div>
         </div>
       </div>
