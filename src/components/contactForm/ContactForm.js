@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
-import './ContactForm.css'
-
+import './ContactForm.css';
 
 const App = () => {
   const [formData, setFormData] = useState({
@@ -12,12 +11,15 @@ const App = () => {
     message: ""
   });
 
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    setIsSubmitting(true);
 
     emailjs.send('service_ls156ui', 'template_35nqcdt', formData, '3ZT1jTIKK0wp5YR9g')
       .then((response) => {
@@ -28,6 +30,9 @@ const App = () => {
       .catch((err) => {
         console.error('FAILED...', err);
         alert("Failed to send message. Please try again.");
+      })
+      .finally(() => {
+        setIsSubmitting(false);
       });
   };
 
@@ -87,7 +92,9 @@ const App = () => {
             required
           />
         </div>
-        <button type="submit" className="submit-button">Submit Form</button>
+        <button type="submit" className="submit-button" disabled={isSubmitting}>
+          {isSubmitting ? "Submitting..." : "Submit Form"}
+        </button>
       </form>
     </div>
   );
