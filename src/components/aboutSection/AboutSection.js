@@ -64,7 +64,7 @@ export default function AboutSection() {
                     </div>
                     <div className="about-me-contact-block-text">
                         <h6 className='text-gray'>Call Me</h6>
-                        <h5 className='text-white'>03138437243</h5>
+                        <h5 className='text-white'>+923138437243</h5>
                     </div>
                   </a>
               </div>

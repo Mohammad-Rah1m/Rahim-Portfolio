@@ -68,13 +68,13 @@ export default function Footer() {
             <a href="mailto:rahimchangezi5@gmail.com" className="address-content-link">
                 <div className="address-content-block">
                     <img src={mailIcon} alt="icon" />
-                    <p>rahimchangezi5@gmail.com</p>
+                    <p>Rahimchangezi5@gmail.com</p>
                 </div>
             </a>
             <a href="tel:03138437243" className="address-content-link">
                 <div className="address-content-block">
                     <img src={phoneIcon} alt="icon" />
-                    <p>03138437243</p>
+                    <p>+923138437243</p>
                 </div>
             </a>
             <a href="https://www.google.com/maps/place/DHA+Phase+1,+Lahore,+Pakistan"
@@ -91,7 +91,7 @@ export default function Footer() {
       </div>
       <div className="footer-copyright">
         <div className="footer-copyright-text">
-          <p>&copy; 2024 Mohammad Rahim. All rights reserved.</p>
+          <p>&copy; 2024 Mohammad Rahim Portfolio. All rights reserved.</p>
         </div>
       </div>
     </div>

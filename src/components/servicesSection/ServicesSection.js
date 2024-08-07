@@ -15,7 +15,7 @@ export default function ServicesSection() {
             <Link to="/wordpress-solutions" className="services-card-item">
                 <div className="services-card-item-text">
                     <h5 className='text-white'>Wordpress Solutions</h5>
-                    <p className='text-gray'>Build a dynamic and responsive website in Wordpress</p>
+                    <p className='text-gray margin-bottom-zero'>Build a dynamic and responsive website in Wordpress</p>
                 </div>
                 <div className='services-icon-container'>
                     <img src={arrowRightIcon} alt="icon" />
@@ -24,7 +24,7 @@ export default function ServicesSection() {
             <Link to="/react-js-development" className="services-card-item">
                 <div className="services-card-item-text">
                     <h5 className='text-white'>React JS Development</h5>
-                    <p className='text-gray'>Create a appealing Front-End in React JS</p>
+                    <p className='text-gray margin-bottom-zero'>Create a appealing Front-End in React JS</p>
                 </div>
                 <div className='services-icon-container'>
                     <img src={arrowRightIcon} alt="icon" />
@@ -35,7 +35,7 @@ export default function ServicesSection() {
             <Link to="/figma-designs" className="services-card-item">
                 <div className="services-card-item-text">
                     <h5 className='text-white'>Figma Designs</h5>
-                    <p className='text-gray'>UI/UX solutions in Figma</p>
+                    <p className='text-gray margin-bottom-zero'>UI/UX solutions in Figma</p>
                 </div>
                 <div className='services-icon-container'>
                     <img src={arrowRightIcon} alt="icon" />
@@ -44,7 +44,7 @@ export default function ServicesSection() {
             <Link to="/node-js" className="services-card-item">
                 <div className="services-card-item-text">
                     <h5 className='text-white'>Node JS</h5>
-                    <p className='text-gray'>Full-Stack Development in MERN</p>
+                    <p className='text-gray margin-bottom-zero'>Full-Stack Development in MERN</p>
                 </div>
                 <div className='services-icon-container'>
                     <img src={arrowRightIcon} alt="icon" />
