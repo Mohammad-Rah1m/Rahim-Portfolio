@@ -53,7 +53,10 @@
     align-items: center;
   }
   .my-contact-container .contact-container-details .contact-details-block {
-    margin-block: 10px;
+    margin-block: 10px !important;
+  }
+  .my-contact-container .contact-container-details h2 {
+    margin-bottom: 20px !important;
   }
   .my-contact-container .contact-container-form {
     width: 100%;

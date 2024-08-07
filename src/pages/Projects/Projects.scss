@@ -50,5 +50,10 @@
     }
     .projects-item-img,.projects-item-content{
         width: 100% !important;
+        text-align: center;
+    }
+    .projects-item-content .button-main-container{
+        display: flex;
+        justify-content: center;
     }
 }

@@ -17,7 +17,6 @@
   border-radius: 20px;
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
 }
 .my-resume .my-resume-card .my-resume-card-block {
   display: flex;
@@ -52,10 +51,11 @@
   color: black;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   .my-resume-card {
     gap: 40px;
     margin-top: 10% !important;
+    flex-wrap: wrap;
   }
   .my-resume-card-block {
     width: 100%;
