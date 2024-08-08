@@ -1,5 +1,5 @@
 .hero-section{
-    height: 90vh;
+    height: calc(100vh - 90px);
     padding-block:5%;
     padding-inline:10%;
     display: flex;
