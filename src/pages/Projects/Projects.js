@@ -14,6 +14,7 @@ import Brotha from '../../assets/images/projects/Brotha-whiskey.jpg';
 import EqualH from '../../assets/images/projects/Equal-h.jpg';
 import SweatHead from '../../assets/images/projects/Sweathead-1.jpg';
 import RechargeHealth from '../../assets/images/projects/Recharge-Health.jpg';
+import Zoomdle from '../../assets/images/projects/Zoomdle.png'
 
 export default function Projects() {
   return (
@@ -117,6 +118,18 @@ export default function Projects() {
                 <h5 className='sub-heading'>Equalh Trade</h5>
                 <h2 className='text-white'> <span className='text-accent-color'>Trading</span> Platform</h2>
                 <p className='projects-item-content-description'>Discover financial growth with Equal H trading. Unlock smart investing in a secure space. Explore markets, diversify, and overcome challenges for success. Redefine your trading experience.</p>
+                <Button title='Visit Site'/>
+            </div>
+        </div>
+        <div className="projects-item">
+            <div className="projects-item-img">
+                <img src={Zoomdle} alt='zoomdle website'/>
+            </div>
+            <div className="projects-item-content">
+                <h5 className='sub-heading'>Zoomdle</h5>
+                <h2 className='text-white'> Movie <span className='text-accent-color'>Guessing Game</span></h2>
+                <p className='projects-item-content-description'>Given partial image of a movie you have to guess movie name in three attempts. Also you are provided with three partial images of movie as a hint.
+                </p>
                 <Button title='Visit Site'/>
             </div>
         </div>
