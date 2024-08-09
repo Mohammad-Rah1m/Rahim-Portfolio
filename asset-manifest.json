@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Rahim-Portfolio/static/css/main.897272a9.css",
-    "main.js": "/Rahim-Portfolio/static/js/main.388b7c9d.js",
+    "main.js": "/Rahim-Portfolio/static/js/main.5f99f72e.js",
     "static/js/897.87663771.chunk.js": "/Rahim-Portfolio/static/js/897.87663771.chunk.js",
     "static/js/453.68693753.chunk.js": "/Rahim-Portfolio/static/js/453.68693753.chunk.js",
     "static/media/About.png": "/Rahim-Portfolio/static/media/About.c843de14cf31c3d16f9e.png",
@@ -12,6 +12,7 @@
     "static/media/Sweathead-1.jpg": "/Rahim-Portfolio/static/media/Sweathead-1.cd93a089bde84d5728ea.jpg",
     "static/media/Projects.png": "/Rahim-Portfolio/static/media/Projects.e1abcb3eb6ac53b21ac5.png",
     "static/media/Brotha-whiskey.jpg": "/Rahim-Portfolio/static/media/Brotha-whiskey.f72d460803255b2e0301.jpg",
+    "static/media/Zoomdle.png": "/Rahim-Portfolio/static/media/Zoomdle.bc4dcacba71a59f672a8.png",
     "static/media/Local-growth.jpg": "/Rahim-Portfolio/static/media/Local-growth.c48f453ce7854b7bf8a3.jpg",
     "static/media/Recharge-Health.jpg": "/Rahim-Portfolio/static/media/Recharge-Health.f2e2c997de5ca21c41f2.jpg",
     "static/media/Equal-h.jpg": "/Rahim-Portfolio/static/media/Equal-h.fded1cc0f880341733e6.jpg",
@@ -45,12 +46,12 @@
     "static/media/check.svg": "/Rahim-Portfolio/static/media/check.2fb5bbaf2426132e07b8dd6eb9bb995f.svg",
     "static/media/circle.svg": "/Rahim-Portfolio/static/media/circle.289d867f69757c87e15a55f77e7718d7.svg",
     "main.897272a9.css.map": "/Rahim-Portfolio/static/css/main.897272a9.css.map",
-    "main.388b7c9d.js.map": "/Rahim-Portfolio/static/js/main.388b7c9d.js.map",
+    "main.5f99f72e.js.map": "/Rahim-Portfolio/static/js/main.5f99f72e.js.map",
     "897.87663771.chunk.js.map": "/Rahim-Portfolio/static/js/897.87663771.chunk.js.map",
     "453.68693753.chunk.js.map": "/Rahim-Portfolio/static/js/453.68693753.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.897272a9.css",
-    "static/js/main.388b7c9d.js"
+    "static/js/main.5f99f72e.js"
   ]
 }
