@@ -1,8 +1,15 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import './ContactForm.css';
+import { useDispatch, useSelector } from 'react-redux';
+import { setPlan } from '../../redux/cartSlice.js';
 
 const App = () => {
+  const dispatch = useDispatch();
+  const plan = useSelector((state) => state.cart.plan);
+
+  console.log("plan is:",plan);
+
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -15,6 +22,7 @@ const App = () => {
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
+    dispatch(setPlan(e.target.value));
   };
 
   const handleSubmit = (e) => {
@@ -72,16 +80,18 @@ const App = () => {
         </div>
         <div className="form-group">
           <select
-            name="purpose"
-            value={formData.purpose}
-            onChange={handleChange}
-            required
-          >
-            <option value="" disabled>Select purpose</option>
-            <option value="wordpress">WordPress</option>
-            <option value="react">React</option>
-            <option value="hiring">Hiring</option>
-          </select>
+          name="purpose"
+          value={plan}
+          onChange={handleChange}
+          required
+        >
+          <option value="" disabled>
+            Select plan
+          </option>
+          <option value="basic">Basic Plan</option>
+          <option value="standard">Standard Plan</option>
+          <option value="premium">Premium Plan</option>
+        </select>
         </div>
         <div className="form-group">
           <textarea

@@ -3,25 +3,37 @@ import './PricingSection.css'
 import CheckIcon from '../../assets/images/check.svg';
 // import Button from '../../components/button/Button.js'
 import {useDispatch } from 'react-redux'
-import { incrementByPrice } from '../../redux/cartSlice.js'
+import { incrementByPrice,setPlan } from '../../redux/cartSlice.js'
+import {useNavigate }  from 'react-router-dom';
+
 
 export default function PricingSection() {
+  const navigate = useNavigate();  
   const dispatch = useDispatch();
   const basicPrice=100;
   const standardPrice=200;
   const premiumPrice=300;
   const [IsDisabled, setIsDisabled] = useState(false);
+
   const handleClick = (plan) => {
-    if(plan==='basic'){
-        dispatch(incrementByPrice(basicPrice)); // Dispatch the action
+    const userConfirmed  = window.confirm('Are you sure you want to choose this plan?');
+    if(userConfirmed){
+        if(plan==='basic'){
+            dispatch(incrementByPrice(basicPrice)); // Dispatch the action
+            dispatch(setPlan('basic'));
+        }
+        else if (plan==='standard'){
+            dispatch(incrementByPrice(standardPrice));
+            dispatch(setPlan('standard'));
+        }
+        else {
+            dispatch(incrementByPrice(premiumPrice));
+            dispatch(setPlan('premium'));
+        }
+        setIsDisabled(true); // Disable the button after it's clicked
+        navigate('/contact');
     }
-    else if (plan==='standard'){
-        dispatch(incrementByPrice(standardPrice));
-    }
-    else {
-        dispatch(incrementByPrice(premiumPrice));
-    }
-    setIsDisabled(true); // Disable the button after it's clicked
+    
   };
 
   return (
