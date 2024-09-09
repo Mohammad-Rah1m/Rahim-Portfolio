@@ -52,6 +52,23 @@
             .pricing-btn{
                 padding-inline:20px;
                 padding-bottom: 2px;
+                button{
+                    background-color: var(--accent-color);
+                    padding-inline:20px;
+                    padding-block:10px;
+                    border: none;
+                    outline: none;
+                    border-radius: 10px;
+                    font-weight: 500;
+                    &:hover{
+                        background-color: #7b9905;
+                        color:white;
+                    }
+                    &.button-disabled{
+                        background-color: rgb(122, 122, 122);
+                        color:white;
+                    }
+                }
             }
         }
     }

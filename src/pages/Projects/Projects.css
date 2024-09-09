@@ -29,6 +29,9 @@
 .my-projects .projects-container .projects-item .projects-item-content .projects-item-content-description {
   color: gray;
 }
+.my-projects .projects-container .projects-item .projects-item-content a {
+  text-decoration: none;
+}
 .my-projects .projects-container .projects-item:nth-child(odd) {
   flex-direction: row-reverse;
 }

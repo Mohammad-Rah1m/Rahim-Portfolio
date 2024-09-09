@@ -5,8 +5,12 @@ import './NavbarSticky.css';
 import LogoWhite from '../../assets/images/whitelogonew.svg';
 import Hamburger from '../../assets/images/menu.svg';
 import Button from '../../components/button/Button';
+import Cart from '../../assets/images/cart.svg';
+import { useSelector} from 'react-redux';
 
 export default function NavbarSticky(props) {
+  const count = useSelector((state) => state.cart.value)
+
   const [menuOpen, setMenuOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -40,6 +44,10 @@ export default function NavbarSticky(props) {
       </div>
       <div className="navbar-contact-desktop">
           <Button title="Get In Touch" linkUrl='/contact'/>
+          <div className="cart-items">
+            <img src={Cart} alt='cart icon'/>
+            <p>{count}<span>$</span></p>
+          </div>
       </div>
     </div>
   );

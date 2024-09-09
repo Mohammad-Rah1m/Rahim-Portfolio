@@ -12,6 +12,7 @@ import Brotha from '../../assets/images/projects/Brotha-whiskey.jpg';
 import EqualH from '../../assets/images/projects/Equal-h.jpg';
 import SweatHead from '../../assets/images/projects/Sweathead-1.jpg';
 import RechargeHealth from '../../assets/images/projects/Recharge-Health.jpg';
+import TheBackerHive from '../../assets/images/projects/The-Backer-Hive.jpg';
 
 import Marquee from "react-fast-marquee";
 
@@ -34,6 +35,7 @@ export default function ProjectSection() {
             <img src={RechargeHealth} alt='Project Images'/>
             <img src={SweatHead} alt='Project Images'/>
             <img src={EqualH} alt='Project Images'/>
+            <img src={TheBackerHive} alt='Project Images'/>
         </Marquee>  
       </div>
       <div className="project-btn">

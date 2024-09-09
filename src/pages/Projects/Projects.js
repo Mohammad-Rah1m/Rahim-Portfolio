@@ -8,13 +8,13 @@ import SecondaryImage from '../../assets/images/Projects.png'
 import AAOG from '../../assets/images/projects/AAOG.jpg';
 import LightPlanet from '../../assets/images/projects/Light-Planet.jpg';
 import LocalGrowth from '../../assets/images/projects/Local-growth.jpg';
-import Lubu from '../../assets/images/projects/Lubu.jpg';
-import WooflyBox from '../../assets/images/projects/Woofly-Box.jpg';
-import Brotha from '../../assets/images/projects/Brotha-whiskey.jpg';
-import EqualH from '../../assets/images/projects/Equal-h.jpg';
 import SweatHead from '../../assets/images/projects/Sweathead-1.jpg';
 import RechargeHealth from '../../assets/images/projects/Recharge-Health.jpg';
 import Zoomdle from '../../assets/images/projects/Zoomdle.png'
+import TheBackerHive from '../../assets/images/projects/The-Backer-Hive.jpg'
+import Crowdfunder from '../../assets/images/projects/Crowdfunderhub.jpg'
+import Skyline from '../../assets/images/projects/skyline.jpg'
+
 
 export default function Projects() {
   return (
@@ -57,45 +57,12 @@ export default function Projects() {
         </div>
         <div className="projects-item">
             <div className="projects-item-img">
-                <img src={Lubu} alt='lubu website'/>
-            </div>
-            <div className="projects-item-content">
-                <h5 className='sub-heading'>Lubu</h5>
-                <h2 className='text-white'>Revolutionizing <span className='text-accent-color'> Mobility</span></h2>
-                <p className='projects-item-content-description'>Step into the future with LUBU, a revolutionary wearable device meticulously designed to capture comprehensive movement data right from the foundation of our mobility—the feet. Experience cutting-edge technology that redefines how we understand and optimize our every step.</p>
-                <Button title='Visit Site'/>
-            </div>
-        </div>
-        <div className="projects-item">
-            <div className="projects-item-img">
-                <img src={WooflyBox} alt='woofly website'/>
-            </div>
-            <div className="projects-item-content">
-                <h5 className='sub-heading'>Woofly Box</h5>
-                <h2 className='text-white'><span className='text-accent-color'> Tail-Wagging</span> Delights</h2>
-                <p className='projects-item-content-description'>Woofly is dedicated to delivering premium, delightful treats that prioritize canine happiness and strengthen the bond between dogs and their owners. We’re committed to providing high-quality, nutritious options that bring joy and wagging tails straight to your doorstep.</p>
-                <Button title='Visit Site'/>
-            </div>
-        </div>
-        <div className="projects-item">
-            <div className="projects-item-img">
                 <img src={SweatHead} alt='sweathead website'/>
             </div>
             <div className="projects-item-content">
                 <h5 className='sub-heading'>Sweathead</h5>
                 <h2 className='text-white'><span className='text-accent-color'> Business Strategy</span> Seller</h2>
                 <p className='projects-item-content-description'>Your ultimate resource for all things related to business strategy. Designed and dedicated to helping businesses of all sizes achieve their goals by providing them with the insights and tools they need to succeed.</p>
-                <Button title='Visit Site'/>
-            </div>
-        </div>
-        <div className="projects-item">
-            <div className="projects-item-img">
-                <img src={Brotha} alt='brotha website'/>
-            </div>
-            <div className="projects-item-content">
-                <h5 className='sub-heading'>Brotha Whiskey</h5>
-                <h2 className='text-white'><span className='text-accent-color'> Baverage</span> Marketing</h2>
-                <p className='projects-item-content-description'>Indulge in the rich and smooth experience of Brotha Whiskey. Crafted with precision and passion, this whiskey is a tribute to soulful moments and good times. Elevate your spirits with Brotha Whiskey – where every sip tells a story of craftsmanship and celebration.</p>
                 <Button title='Visit Site'/>
             </div>
         </div>
@@ -112,17 +79,6 @@ export default function Projects() {
         </div>
         <div className="projects-item">
             <div className="projects-item-img">
-                <img src={EqualH} alt='equalh trade website'/>
-            </div>
-            <div className="projects-item-content">
-                <h5 className='sub-heading'>Equalh Trade</h5>
-                <h2 className='text-white'> <span className='text-accent-color'>Trading</span> Platform</h2>
-                <p className='projects-item-content-description'>Discover financial growth with Equal H trading. Unlock smart investing in a secure space. Explore markets, diversify, and overcome challenges for success. Redefine your trading experience.</p>
-                <Button title='Visit Site'/>
-            </div>
-        </div>
-        <div className="projects-item">
-            <div className="projects-item-img">
                 <img src={Zoomdle} alt='zoomdle website'/>
             </div>
             <div className="projects-item-content">
@@ -131,6 +87,48 @@ export default function Projects() {
                 <p className='projects-item-content-description'>Given partial image of a movie you have to guess movie name in three attempts. Also you are provided with three partial images of movie as a hint.
                 </p>
                 <Button title='Visit Site'/>
+            </div>
+        </div>
+        <div className="projects-item">
+            <div className="projects-item-img">
+                <img src={TheBackerHive} alt='the backer hive website'/>
+            </div>
+            <div className="projects-item-content">
+                <h5 className='sub-heading'>The Backer Hive</h5>
+                <h2 className='text-white'><span className='text-accent-color'>Marketing</span> Company</h2>
+                <p className='projects-item-content-description'>A vibrant community where ideas soar, connecting passionate backers and creators to bring innovative crowdfunding projects to life.
+                </p>
+                <a href='https://thebackerhive.com/' target="_blank" rel="noopener noreferrer">
+                    <Button title='Visit Site' scrollToTop={false}/>
+                </a>
+            </div>
+        </div>
+        <div className="projects-item">
+            <div className="projects-item-img">
+                <img src={Crowdfunder} alt='crowdfunder website'/>
+            </div>
+            <div className="projects-item-content">
+                <h5 className='sub-heading'>Crowdfunder Hub</h5>
+                <h2 className='text-white'>Strategic <span className='text-accent-color'>Campaign</span> Solutions</h2>
+                <p className='projects-item-content-description'>Empowering campaigns through innovative crowdfunding design, strategic marketing, and community-driven solutions for impactful results.
+                </p>
+                <a href='https://crowdfunderhub.com' target="_blank" rel="noopener noreferrer">
+                    <Button title='Visit Site' scrollToTop={false}/>
+                </a>
+            </div>
+        </div>
+        <div className="projects-item">
+            <div className="projects-item-img">
+                <img src={Skyline} alt='crowdfunder website'/>
+            </div>
+            <div className="projects-item-content">
+                <h5 className='sub-heading'>Skyline Tech Solutions</h5>
+                <h2 className='text-white'><span className='text-accent-color'>Business Consulting & Tech</span> Solutions</h2>
+                <p className='projects-item-content-description'>Providing expert business consulting, strategic marketing, and innovative tech solutions to drive your company's growth.
+                </p>
+                <a href='https://skylinetechsol.com' target="_blank" rel="noopener noreferrer">
+                    <Button title='Visit Site' scrollToTop={false}/>
+                </a>
             </div>
         </div>
 

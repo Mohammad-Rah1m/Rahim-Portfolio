@@ -7,7 +7,9 @@ import {useNavigate }  from 'react-router-dom';
 export default function Button(props) {
   const navigate = useNavigate();
   const handleClick = () => {
-    window.scrollTo(0, 0); 
+    if (props.scrollToTop) {
+      window.scrollTo(0, 0);
+    }
     navigate(props.linkUrl); 
   };
 

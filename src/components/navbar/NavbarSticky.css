@@ -44,12 +44,23 @@
 .navbar-container .navbar-menu .navbar-menu-item .nav-link.active::before, .navbar-container .navbar-menu .navbar-menu-item .nav-link:hover::before {
   transform: scaleX(1);
 }
-.navbar-container .navbar-contact .navbar-contact-btn {
-  background-color: var(--accent-color);
-  padding-inline: 20px;
-  padding-block: 12px;
-  font-weight: 600;
-  border-radius: 8px;
+.navbar-container .navbar-contact-desktop {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.navbar-container .navbar-contact-desktop .cart-items {
+  display: flex;
+  align-items: end;
+  color: white;
+  gap: 5px;
+  cursor: pointer;
+}
+.navbar-container .navbar-contact-desktop .cart-items p {
+  margin: 0px;
+}
+.navbar-container .navbar-contact-desktop .cart-items p span {
+  font-size: 10px;
 }
 
 @media only screen and (max-width: 769px) {

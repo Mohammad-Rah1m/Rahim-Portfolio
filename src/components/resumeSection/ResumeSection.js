@@ -26,7 +26,7 @@ export default function ResumeSection() {
                 <img src={arrowRightIcon} alt="icon" />
               </div>
               <div className="my-resume-card-block-item-text">
-                <h5>2022 - 2024</h5>
+                <h5>2023 - 2024</h5>
                 <h4>Web Developer</h4>
                 <h6>Icon Pro Digital Solutions</h6>
               </div>
@@ -41,9 +41,9 @@ export default function ResumeSection() {
                 <img src={arrowRightIcon} alt="icon" />
               </div>
               <div className="my-resume-card-block-item-text">
-                <h5>2021 - 2022</h5>
-                <h4>UI/UX Designer</h4>
-                <h6>Arbisoft</h6>
+                <h5>2023 - 2023 (6-Months)</h5>
+                <h4>Web Developer Intern</h4>
+                <h6>Icon Pro Digital Solutions</h6>
               </div>
             </div>
             <div className="my-resume-card-block-item">
@@ -51,8 +51,8 @@ export default function ResumeSection() {
                 <img src={arrowRightIcon} alt="icon" />
               </div>
               <div className="my-resume-card-block-item-text">
-                <h5>2020 - 2021</h5>
-                <h4>Graphics Designer</h4>
+                <h5>2022 - 2023</h5>
+                <h4>Web Developer + UI/UX</h4>
                 <h6>Bocoh Studios</h6>
               </div>
             </div>

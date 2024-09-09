@@ -12,7 +12,6 @@
     .navbar-logo img {
       width: 120px; // Adjust logo size as needed
     }
-  
     .navbar-hamburger {
       display: none;
       cursor: pointer;
@@ -22,13 +21,10 @@
         filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
       }
     }
-  
     .navbar-menu {
       display: flex;
       gap: 20px;
-      color: white;
-    //   transition: visibility 0.3s ease;
-  
+      color: white;  
       .navbar-menu-item {
         .nav-link {
           position: relative;
@@ -51,16 +47,24 @@
         }
       }
     }
-  
-    .navbar-contact {
-      .navbar-contact-btn {
-        background-color: var(--accent-color);
-        padding-inline: 20px;
-        padding-block: 12px;
-        font-weight: 600;
-        border-radius: 8px;
+  .navbar-contact-desktop{
+    display: flex;
+    align-items: center;
+    gap:20px;
+    .cart-items{
+      display: flex;
+      align-items: end;
+      color:white;
+      gap:5px;
+      cursor: pointer;
+      p{
+        margin:0px;
+        span{
+          font-size: 10px;
+        }
       }
-    }  
+    }
+  }
   }
 
 
