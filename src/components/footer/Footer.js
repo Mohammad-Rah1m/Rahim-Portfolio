@@ -92,6 +92,7 @@ export default function Footer() {
       <div className="footer-copyright">
         <div className="footer-copyright-text">
           <p>&copy; 2024 Mohammad Rahim Portfolio. All rights reserved.</p>
+          <p>The website is developed using React.js and is still under construction. Some content is currently placeholder.</p>
         </div>
       </div>
     </div>
