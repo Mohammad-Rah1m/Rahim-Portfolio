@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Rahim-Portfolio/static/css/main.a146b94d.css",
+    "main.css": "/Rahim-Portfolio/static/css/main.45ea438c.css",
     "main.js": "/Rahim-Portfolio/static/js/main.60ab3f1b.js",
     "static/js/897.87663771.chunk.js": "/Rahim-Portfolio/static/js/897.87663771.chunk.js",
     "static/js/453.68693753.chunk.js": "/Rahim-Portfolio/static/js/453.68693753.chunk.js",
@@ -40,13 +40,13 @@
     "static/media/right.svg": "/Rahim-Portfolio/static/media/right.d45fd2f46e93f5c3aa0a7d0617d9fecf.svg",
     "static/media/check.svg": "/Rahim-Portfolio/static/media/check.2fb5bbaf2426132e07b8dd6eb9bb995f.svg",
     "static/media/circle.svg": "/Rahim-Portfolio/static/media/circle.289d867f69757c87e15a55f77e7718d7.svg",
-    "main.a146b94d.css.map": "/Rahim-Portfolio/static/css/main.a146b94d.css.map",
+    "main.45ea438c.css.map": "/Rahim-Portfolio/static/css/main.45ea438c.css.map",
     "main.60ab3f1b.js.map": "/Rahim-Portfolio/static/js/main.60ab3f1b.js.map",
     "897.87663771.chunk.js.map": "/Rahim-Portfolio/static/js/897.87663771.chunk.js.map",
     "453.68693753.chunk.js.map": "/Rahim-Portfolio/static/js/453.68693753.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a146b94d.css",
+    "static/css/main.45ea438c.css",
     "static/js/main.60ab3f1b.js"
   ]
 }
