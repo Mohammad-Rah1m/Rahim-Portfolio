@@ -74,7 +74,7 @@
     color: black;
   }
   .navbar-contact-desktop {
-    display: none;
+    display: none !important;
   }
   .navbar-menu {
     visibility: hidden;
