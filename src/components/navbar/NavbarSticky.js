@@ -1,22 +1,29 @@
 import React, { useState } from 'react';
 import { NavLink , Link } from 'react-router-dom';
-// import { FaBars } from 'react-icons/fa';
+// import { setPopUp } from '../../redux/cartSlice.js'
+// import {useDispatch } from 'react-redux'
+
 import './NavbarSticky.css';
 import LogoWhite from '../../assets/images/whitelogonew.svg';
 import Hamburger from '../../assets/images/menu.svg';
-import Button from '../../components/button/Button';
-import Cart from '../../assets/images/cart.svg';
-import { useSelector} from 'react-redux';
+import ToggleButton from '../../components/togglePopupBtn/TogglePopupBtn.js';
+// import Cart from '../../assets/images/cart.svg';
+// import { useSelector} from 'react-redux';
 
 export default function NavbarSticky(props) {
-  const count = useSelector((state) => state.cart.value)
-
+  // const count = useSelector((state) => state.cart.value)
+  // const dispatch = useDispatch();
   const [menuOpen, setMenuOpen] = useState(false);
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
-
+  // const handleClick = () => {
+  //       {
+  //           dispatch(setPopUp(true));
+  //       }
+  //   }
+    
   return (
     <div className="navbar-container">
       <div className="navbar-logo">
@@ -39,15 +46,22 @@ export default function NavbarSticky(props) {
           <NavLink className="nav-link" activeClassName="active" to="/projects">Projects</NavLink>
         </div>
         <div className="navbar-contact-mobile">
-          <Button title="Get In Touch" linkUrl='/contact'/>
+          <ToggleButton title="Get In Touch"/>
       </div>
       </div>
       <div className="navbar-contact-desktop">
-          <Button title="Get In Touch" linkUrl='/contact'/>
-          <div className="cart-items">
+          {/* <Button title="Get In Touch" linkUrl='/contact'/> */}
+          {/* <div className="cart-items">
             <img src={Cart} alt='cart icon'/>
             <p>{count}<span>$</span></p>
-          </div>
+          </div> */}
+            {/* <button
+                    aria-label="Increment value"
+                    onClick={() => handleClick()}
+                    >
+                    Choose Plan
+            </button> */}
+            <ToggleButton title="Get In Touch"/>
       </div>
     </div>
   );

@@ -3,17 +3,20 @@ import './PricingSection.css'
 import CheckIcon from '../../assets/images/check.svg';
 // import Button from '../../components/button/Button.js'
 import {useDispatch } from 'react-redux'
-import { incrementByPrice,setPlan } from '../../redux/cartSlice.js'
+import { incrementByPrice,setPlan,setPopUp } from '../../redux/cartSlice.js'
 import {useNavigate }  from 'react-router-dom';
-
+import { useSelector} from 'react-redux';
 
 export default function PricingSection() {
+    const popupVal = useSelector((state) => state.cart.popupOpen);
+    console.log("This is value of popup",popupVal);
+
   const navigate = useNavigate();  
   const dispatch = useDispatch();
   const basicPrice=100;
   const standardPrice=200;
   const premiumPrice=300;
-  const [IsDisabled, setIsDisabled] = useState(false);
+//   const [IsDisabled, setIsDisabled] = useState(false);
 
   const handleClick = (plan) => {
     const userConfirmed  = window.confirm('Are you sure you want to choose this plan?');
@@ -30,8 +33,9 @@ export default function PricingSection() {
             dispatch(incrementByPrice(premiumPrice));
             dispatch(setPlan('premium'));
         }
-        setIsDisabled(true); // Disable the button after it's clicked
-        navigate('/contact');
+        // setIsDisabled(true); // Disable the button after it's clicked
+        // navigate('/contact');
+        dispatch(setPopUp(true));
     }
     
   };
@@ -71,8 +75,8 @@ export default function PricingSection() {
                 <button
                     aria-label="Increment value"
                     onClick={() => handleClick('basic')}
-                    disabled={IsDisabled}
-                    className={IsDisabled ? 'button-disabled' : 'button-active'} 
+                    // disabled={IsDisabled}
+                    // className={IsDisabled ? 'button-disabled' : 'button-active'} 
                     >
                     Choose Plan
                 </button>
@@ -106,8 +110,8 @@ export default function PricingSection() {
             <button
                     aria-label="Increment value"
                     onClick={() => handleClick('standard')}
-                    disabled={IsDisabled}
-                    className={IsDisabled ? 'button-disabled' : 'button-active'} 
+                    // disabled={IsDisabled}
+                    // className={IsDisabled ? 'button-disabled' : 'button-active'} 
                     >
                     Choose Plan
                 </button>
@@ -141,8 +145,8 @@ export default function PricingSection() {
                 <button
                     aria-label="Increment value"
                     onClick={() => handleClick('premium')}
-                    disabled={IsDisabled}
-                    className={IsDisabled ? 'button-disabled' : 'button-active'} 
+                    // disabled={IsDisabled}
+                    // className={IsDisabled ? 'button-disabled' : 'button-active'} 
                     >
                     Choose Plan
                 </button>

@@ -44,6 +44,11 @@ h2{
 .margin-bottom-zero{
     margin-bottom:0px;
 }
+.no-scroll {
+  position: fixed; /* Freeze the page's scroll position */
+  width: 100%;     /* Maintain the full width */
+  overflow-y: scroll;
+}
 
 @media only screen and (min-width:2000px) and (max-width:4000px){
     .main-container-padding,.navbar-container{

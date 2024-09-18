@@ -2,7 +2,8 @@ import { createSlice } from '@reduxjs/toolkit'
 
 const initialState = {
   value: 0,
-  plan: ''
+  plan: '',
+  popupOpen:false
 }
 
 export const cartSlice = createSlice({
@@ -21,10 +22,13 @@ export const cartSlice = createSlice({
     setPlan: (state, action) => {
       state.plan = action.payload; // Action to set the plan
     },
+    setPopUp:(state,action)=>{
+      state.popupOpen = action.payload;
+    }
   },
 })
 
 // Action creators are generated for each case reducer function
-export const { increment, decrement, incrementByPrice, setPlan} = cartSlice.actions
+export const { increment, decrement, incrementByPrice, setPlan, setPopUp} = cartSlice.actions
 
 export default cartSlice.reducer
